@@ -1,0 +1,41 @@
+<!--
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+
+    Device-specific HALs that only exist on lafa.
+
+    LineageOS' hardware/oplus tree has no pixelworks interface definitions - the
+    Iris7p display co-processor is a realme/OPPO part that ships as prebuilt
+    blobs (see vendor/realme/lafa/proprietary/odm/bin/hw/
+    vendor.pixelworks.hardware.feature-service and the matching
+    odm/etc/vintf/manifest/vendor.pixelworks.hardware.*-service.xml fragments).
+    Since nothing declares them in a framework compatibility matrix, check_vintf
+    fails the build with:
+
+        files are incompatible: The following instances are in the device manifest
+        but not specified in framework compatibility matrix:
+            vendor.pixelworks.hardware.display.IIris/default (@3)
+            vendor.pixelworks.hardware.feature.IIrisFeature/default (@2)
+
+    Hence this fragment, hooked up via DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE
+    in device.mk. optional="true" matches how hardware/oplus/vintf/
+    device_framework_matrix.xml declares the rest of the OPPO HALs.
+-->
+<compatibility-matrix version="4.0" type="framework">
+    <hal format="aidl" optional="true">
+        <name>vendor.pixelworks.hardware.display</name>
+        <version>3</version>
+        <interface>
+            <name>IIris</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.pixelworks.hardware.feature</name>
+        <version>2</version>
+        <interface>
+            <name>IIrisFeature</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

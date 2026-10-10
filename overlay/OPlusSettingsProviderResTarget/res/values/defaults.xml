@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL
+         Matches `settings get global device_name` on the stock ROM. -->
+    <string name="def_device_name_simple" translatable="false">真我GT8 Pro</string>
+</resources>

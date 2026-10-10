@@ -1,0 +1,7 @@
+# TARGET_SYSTEM_EXT_PROP - properties that land in /system_ext/build.prop
+#
+# NOTE: infiniti uses this file for sys.oplus.ifaa.model. On lafa that property
+# is not set by the stock odm (only vendor.oplus.ifaa.need_init=1 is present), so
+# it is intentionally left out here rather than copied over.
+#
+# Add lafa-specific system_ext properties to this file as they are identified.

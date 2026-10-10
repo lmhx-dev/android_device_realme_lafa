@@ -1,0 +1,24 @@
+# The lafa touchscreen is a synaptics_tcm (device name "touchpanel") and reports
+# double-tap and the other low-power gestures as KEY_F4 - see the generic
+# gesture branch at the end of syna_tcm2.c's touch report parser:
+#
+#     } else {
+#         input_report_key(input_dev, KEY_F4, 1);
+#         input_report_key(input_dev, KEY_F4, 0);
+#     }
+#
+# A key only becomes a wake key if InputReader finds WAKE on its mapping, and
+# that mapping has to come from a key layout: /system/usr/keylayout/Generic.kl
+# ships a bare "key 62 F4". Without WAKE the event still reaches the framework,
+# but PhoneWindowManager sees no FLAG_WAKE and declines to wake the screen, so
+# double-tap to wake silently does nothing - no error anywhere.
+#
+# The stock ROM also has a bare "key 62 F4" in its Generic.kl (checked against
+# 16.0.10.501), because OPPO's own framework special-cases KEY_F4. LineageOS
+# does not, so the flag has to be supplied per-device instead. Naming the file
+# after the input device keeps the override scoped to the touchscreen - the
+# lookup order is Vendor_*.kl, then <device name>.kl, then Generic.kl.
+#
+# Applied via PRODUCT_COPY_FILES in device.mk. Removing it breaks double-tap to
+# wake (and any other gesture OPPO maps to F4) with no logged error.
+key 62    F4    WAKE

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+
+     Values measured on the running stock ROM (RMX5200_16.0.10.501, 1440x3136 @ 640dpi).
+     Source of truth: the stock framework overlay
+       /my_product/overlay/android_framework_res_overlay.display.product.24624.apk
+     (package android.frameworkres.overlay.display.product) decoded with aapt2,
+     cross-checked against `dumpsys window displays` / `dumpsys display`.
+
+     Do not copy OnePlus 15's values here - its panel is 1272x2772.
+-->
+<resources>
+    <!-- Stock: 40dp. At the panel's 640dpi (4.0x) this is the 160px top inset that
+         `dumpsys window displays` reports for the statusBars InsetsSource. -->
+    <dimen name="status_bar_height_default">40dp</dimen>
+    <dimen name="status_bar_height_portrait">40dp</dimen>
+    <dimen name="status_bar_height_landscape">40dp</dimen>
+
+    <!-- Stock: 176.000000px, matching the RoundedCorners reported for all four corners. -->
+    <dimen name="rounded_corner_radius">176px</dimen>
+</resources>

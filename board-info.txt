@@ -1,0 +1,23 @@
+# board-info.txt
+#
+# Consumed by check_radio_versions.py and, for fastboot-flashed packages, by
+# `fastboot update` as the `require` assertions in android-info.txt.
+#
+# IMPORTANT - why this does not use the usual `require board=...` form:
+#
+# lafa's bootloader exposes NO `board` variable at all. Verified on the device:
+#     bootloader (ABL) : fastboot getvar board -> "GetVar Variable Not found"
+#     fastbootd        : fastboot getvar board -> "Unknown variable"
+# so the conventional `require board=canoe|RE6030L1` (as used by OnePlus 15's
+# board-info.txt) can never be satisfied here - `fastboot update` would always
+# refuse the package.
+#
+# `product` is the identity variable that does exist, but its value differs
+# between the two fastboot modes, so both are accepted:
+#     bootloader (ABL) : product=canoe
+#     fastbootd        : product=ossi   (the generic QSSI name baked into /vendor)
+#
+# Note that `canoe` is a platform-wide value shared by every SM8850 device, so
+# this assertion is a sanity check, not a device-uniqueness check. The real
+# device guard is TARGET_OTA_ASSERT_DEVICE in BoardConfig.mk.
+require product=canoe|ossi

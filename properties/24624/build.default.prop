@@ -1,0 +1,9 @@
+# Device info (values from the stock RMX5200 odm build.default.prop)
+ro.product.odm.device=RE6030L1
+ro.product.odm.model=RMX5200
+ro.product.odm.name=RMX5200
+ro.vendor.oplus.regionmark=CN
+
+# NOTE: unlike OnePlus devices, lafa does not set
+# persist.vendor.nfc.config_file_name, so the NFC HAL uses its built-in default.
+# The stock odm ships libnfc-hal-st-{660,685,727}_{mtp,qrd}.conf and libnfc-hal-st.conf.

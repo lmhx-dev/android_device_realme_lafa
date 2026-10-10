@@ -1,0 +1,2897 @@
+## All proprietary files extracted from realme GT8 Pro (RMX5200_16.0.10.501(CN01)).
+##
+## Bootstrapped from device/oneplus/infiniti's list: OnePlus 15 and lafa are the
+## same OPPO SM8850 platform and share most of the vendor/odm HAL set. Every entry
+## below was verified to exist in lafa's firmware; the entries that do not exist
+## here are listed, commented out, at the end of this file so the delta between
+## the two devices stays visible.
+##
+## Sections and comments are carried over from the reference list.
+
+odm/etc/acdbdata/FTM/acdb_cal.acdb
+odm/etc/acdbdata/Audio_Parameter_Version.txt
+odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/canoe_mtp/acdb_cal.acdb
+odm/etc/acdbdata/up_ve_enpuv6_ha.eai
+odm/etc/acdbdata/up_ve_enpuv6_hh.eai
+odm/lib/rfsa/adsp/libCalculator_skel.so
+odm/lib/rfsa/adsp/libQnnHtpV81.so
+odm/lib/rfsa/adsp/libQnnHtpV81Skel.so
+odm/lib/rfsa/adsp/libQnnSaver.so
+odm/lib/rfsa/adsp/libSuperRawPost_skel.so
+odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so
+odm/lib/rfsa/adsp/libarc_htp_driver_skel.so
+odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so
+odm/lib/rfsa/adsp/libktveffect.so
+odm/lib/rfsa/adsp/libosieubwc_skel.so
+odm/lib/rfsa/adsp/libtfadsp_sb5_5_rx.so
+odm/lib/rfsa/adsp/libtfadsp_sb5_5_tx.so
+odm/lib/rfsa/adsp/nlc_bgth_v1_5.so
+odm/firmware/secure_ta/antdtx.b00
+odm/firmware/secure_ta/antdtx.b01
+odm/firmware/secure_ta/antdtx.b02
+odm/firmware/secure_ta/antdtx.b03
+odm/firmware/secure_ta/antdtx.b04
+odm/firmware/secure_ta/antdtx.b05
+odm/firmware/secure_ta/antdtx.b06
+odm/firmware/secure_ta/antdtx.b07
+odm/firmware/secure_ta/antdtx.b08
+odm/firmware/secure_ta/antdtx.mdt
+odm/etc/audio_algos_ver/OPAX_Version.txt
+odm/etc/audio_algos_ver/OPREC_version.txt
+odm/etc/audio_algos_ver/OPSPT_Version.txt
+odm/etc/audio_algos_ver/OPVE_Version.txt
+odm/etc/init/init.audio.rc
+odm/lib64/liboprec_audrec.so
+odm/lib64/liboprec_audrec_wrapper.so
+odm/lib64/libtfa98xx.so
+odm/etc/audio/OcaiConfig.xml
+odm/etc/mixer_paths.xml
+odm/etc/resourcemanager.xml
+odm/etc/usecaseKvManager.xml
+odm/firmware/tfa98xx.cnt
+odm/etc/audio/oprec_audrec_params/oprec_audrec_config.txt
+odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
+odm/etc/camera/Owl_Algo_model/Owl_Algo_F_FHD.bin
+odm/etc/camera/Owl_Algo_model/Owl_Algo_F_UHD.bin
+odm/etc/camera/Owl_Algo_model/Owl_Algo_M_FHD.bin
+odm/etc/camera/Owl_Algo_model/Owl_Algo_M_UHD.bin
+odm/etc/camera/Owl_Algo_model/Owl_Algo_T_FHD.bin
+odm/etc/camera/Owl_Algo_model/Owl_Algo_T_UHD.bin
+odm/etc/camera/Owl_Algo_model/Owl_Algo_W_FHD.bin
+odm/etc/camera/Owl_Algo_model/Owl_Algo_W_UHD.bin
+odm/etc/camera/aigc/libs/libODNN.so;MODULE_SUFFIX=.aigc
+odm/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so
+odm/etc/camera/aigc/libs/libzlib.so;MODULE_SUFFIX=.aigc
+odm/etc/camera/anc/fusion_model
+odm/etc/camera/anc/fusion_model_post
+odm/etc/camera/ancsegbase/anc_cl_kernel.cache
+odm/etc/camera/ancsegbase/ancsegmulti_2_model.data
+odm/etc/camera/ancsegbase/ancsegmulti_5_model.data
+odm/etc/camera/ancsegbase/model.data
+odm/etc/camera/asd/ai_perception_scene_detect.bin
+odm/etc/camera/asd/class.dlc
+odm/etc/camera/asd/class_fullfov.dlc
+odm/etc/camera/asd/detect.dlc
+odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut0
+odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut1
+odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut2
+odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut3
+odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut4
+odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut5
+odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut6
+odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut7
+odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut0
+odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut1
+odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut2
+odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut3
+odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut4
+odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut5
+odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut6
+odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut7
+odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut0
+odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut1
+odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut2
+odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut3
+odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut4
+odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut5
+odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut6
+odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut7
+odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut0
+odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut1
+odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut2
+odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut3
+odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut4
+odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut5
+odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut6
+odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut7
+odm/etc/camera/basictone/lmt/BaseLut
+odm/etc/camera/basictone/lmt/CWCM16Lut0
+odm/etc/camera/basictone/lmt/CWCM16Lut1
+odm/etc/camera/basictone/lmt/CWCM16Lut2
+odm/etc/camera/basictone/lmt/CWCM16Lut3
+odm/etc/camera/basictone/lmt/CWCM16Lut4
+odm/etc/camera/basictone/lmt/CWCM16Lut5
+odm/etc/camera/basictone/lmt/CWCM16Lut6
+odm/etc/camera/basictone/lmt/CWCM16Lut7
+odm/etc/camera/basictone/lmt/CWCM16Lut8
+odm/etc/camera/basictone/lmt/CWCM32Lut0
+odm/etc/camera/basictone/lmt/CWCM32Lut1
+odm/etc/camera/basictone/lmt/CWCM32Lut2
+odm/etc/camera/basictone/lmt/CWCM32Lut3
+odm/etc/camera/basictone/lmt/CWCM32Lut4
+odm/etc/camera/basictone/lmt/CWCM32Lut5
+odm/etc/camera/basictone/lmt/CWCM32Lut6
+odm/etc/camera/basictone/lmt/CWCM32Lut7
+odm/etc/camera/basictone/lmt/CWCM32Lut8
+odm/etc/camera/basictone/lmt/LMTLut0
+odm/etc/camera/basictone/lmt/LMTLut1
+odm/etc/camera/basictone/lmt/LMTLut2
+odm/etc/camera/basictone/lmt/LMTLut3
+odm/etc/camera/basictone/lmt/SC16Lut0
+odm/etc/camera/basictone/lmt/SC16Lut1
+odm/etc/camera/basictone/lmt/SC16Lut2
+odm/etc/camera/basictone/lmt/SC16Lut3
+odm/etc/camera/basictone/lmt/SC16Lut4
+odm/etc/camera/basictone/lmt/SC16Lut5
+odm/etc/camera/basictone/lmt/SC16Lut6
+odm/etc/camera/basictone/lmt/SC16Lut7
+odm/etc/camera/basictone/lmt/SC16Lut8
+odm/etc/camera/basictone/lmt/SC32Lut0
+odm/etc/camera/basictone/lmt/SC32Lut1
+odm/etc/camera/basictone/lmt/SC32Lut2
+odm/etc/camera/basictone/lmt/SC32Lut3
+odm/etc/camera/basictone/lmt/SC32Lut4
+odm/etc/camera/basictone/lmt/SC32Lut5
+odm/etc/camera/basictone/lmt/SC32Lut6
+odm/etc/camera/basictone/lmt/SC32Lut7
+odm/etc/camera/basictone/lmt/SC32Lut8
+odm/etc/camera/basictone/odt/ODT_Dolby
+odm/etc/camera/basictone/odt/ODT_Photo
+odm/etc/camera/basictone/odt/ODT_Pre
+odm/etc/camera/basictone/odt/ODT_Video
+odm/etc/camera/basictone/setting/Ditherout
+odm/etc/camera/basictone/setting/SimTool_Dolby.ini
+odm/etc/camera/basictone/setting/SimTool_Master.ini
+odm/etc/camera/basictone/setting/SimTool_Photo_Master.ini
+odm/etc/camera/basictone/setting/SimTool_Photo_Normal.ini
+odm/etc/camera/basictone/setting/TriggerBIN
+odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor0
+odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor1
+odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor2
+odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor3
+odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor4
+odm/etc/camera/basictone/setting_dolby/FromXml
+odm/etc/camera/basictone/setting_dolby/SimTool.ini
+odm/etc/camera/basictone/vig/VigTab_Main
+odm/etc/camera/basictone/vig/VigTab_Tele
+odm/etc/camera/basictone/vig/VigTab_UTele
+odm/etc/camera/basictone/vig/VigTab_Wide
+odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
+odm/etc/camera/config/camera_third_party_feature_config.protobuf
+odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/camera_unit_feature_config.protobuf
+odm/etc/camera/config/oplus_camera_algo_switch_config
+odm/etc/camera/config/oplus_camera_algo_traversal_config.json
+odm/etc/camera/config/oplus_camera_aps_config
+odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/oplus_camera_preview_decision_config.json
+odm/etc/camera/config/oplus_preview_decision_params.json
+odm/etc/camera/config/quick_visibility_white_list
+odm/etc/camera/config/video_ai_proc_cfg.json
+odm/etc/camera/config/video_beauty_default_config
+odm/etc/camera/facerestore/fr_models/BDET.bin
+odm/etc/camera/facerestore/fr_models/DB.bin
+odm/etc/camera/facerestore/fr_models/FS.bin
+odm/etc/camera/facerestore/fr_models/F_C.bin
+odm/etc/camera/facerestore/fr_models/F_SE_A.bin
+odm/etc/camera/facerestore/fr_models/F_SE_B.bin
+odm/etc/camera/facerestore/fr_models/F_SL_A.bin
+odm/etc/camera/facerestore/fr_models/F_SL_B.bin
+odm/etc/camera/facerestore/fr_models/GROUP_D.bin
+odm/etc/camera/facerestore/fr_models/RM_GP_A.bix
+odm/etc/camera/facerestore/fr_models/RM_SE_A.bin
+odm/etc/camera/facerestore/fr_models/RM_SE_B.bin
+odm/etc/camera/facerestore/fr_models/RM_SE_C.bin
+odm/etc/camera/facerestore/fr_models/RM_SL_A.bin
+odm/etc/camera/facerestore/fr_models/RM_SL_B.bin
+odm/etc/camera/facerestore/fr_models/RM_SL_C.bin
+odm/etc/camera/facerestore/fr_models/RT_A.bin
+odm/etc/camera/facerestore/fr_models/RT_B.bin
+odm/etc/camera/facerestore/fr_models/RT_C.bin
+odm/etc/camera/facerestore/fr_models/RT_D.bin
+odm/etc/camera/facerestore/InitParams.json
+odm/etc/camera/fb_model/000.png
+odm/etc/camera/fb_model/000_pre.bin
+odm/etc/camera/fb_model/000_pre.png
+odm/etc/camera/fb_model/001.png
+odm/etc/camera/fb_model/001_pre.bin
+odm/etc/camera/fb_model/001_pre.png
+odm/etc/camera/fb_model/002.png
+odm/etc/camera/fb_model/002_pre.bin
+odm/etc/camera/fb_model/003.png
+odm/etc/camera/fb_model/003_pre.bin
+odm/etc/camera/fb_model/003_pre.png
+odm/etc/camera/fb_model/010.png
+odm/etc/camera/fb_model/010_pre.bin
+odm/etc/camera/fb_model/010_pre.png
+odm/etc/camera/fb_model/011.png
+odm/etc/camera/fb_model/011_pre.bin
+odm/etc/camera/fb_model/011_pre.png
+odm/etc/camera/fb_model/012.png
+odm/etc/camera/fb_model/012_pre.bin
+odm/etc/camera/fb_model/013.png
+odm/etc/camera/fb_model/100.png
+odm/etc/camera/fb_model/100_pre.bin
+odm/etc/camera/fb_model/101.png
+odm/etc/camera/fb_model/101_pre.bin
+odm/etc/camera/fb_model/102.png
+odm/etc/camera/fb_model/102_pre.bin
+odm/etc/camera/fb_model/103.png
+odm/etc/camera/fb_model/103_pre.bin
+odm/etc/camera/fb_model/110.png
+odm/etc/camera/fb_model/110_pre.bin
+odm/etc/camera/fb_model/111.png
+odm/etc/camera/fb_model/111_pre.bin
+odm/etc/camera/fb_model/112.png
+odm/etc/camera/fb_model/112_pre.bin
+odm/etc/camera/fb_model/113.png
+odm/etc/camera/fb_model/200.png
+odm/etc/camera/fb_model/200_pre.bin
+odm/etc/camera/fb_model/201.png
+odm/etc/camera/fb_model/201_pre.bin
+odm/etc/camera/fb_model/202.png
+odm/etc/camera/fb_model/202_pre.bin
+odm/etc/camera/fb_model/203.png
+odm/etc/camera/fb_model/203_pre.bin
+odm/etc/camera/fb_model/210.png
+odm/etc/camera/fb_model/210_pre.bin
+odm/etc/camera/fb_model/211.png
+odm/etc/camera/fb_model/211_pre.bin
+odm/etc/camera/fb_model/212.png
+odm/etc/camera/fb_model/212_pre.bin
+odm/etc/camera/fb_model/213.png
+odm/etc/camera/fb_model/AIdeblemishSnapMask.bin
+odm/etc/camera/fb_model/AIdeblemishSnapMask.png
+odm/etc/camera/fb_model/AIdeblemishSnapMask2.bin
+odm/etc/camera/fb_model/SkinLUT_00.bin
+odm/etc/camera/fb_model/SkinLUT_01.bin
+odm/etc/camera/fb_model/SkinLUT_02.bin
+odm/etc/camera/fb_model/SkinLUT_03.bin
+odm/etc/camera/fb_model/SkinLUT_10.bin
+odm/etc/camera/fb_model/SkinLUT_11.bin
+odm/etc/camera/fb_model/SkinLUT_12.bin
+odm/etc/camera/fb_model/SkinLUT_13.bin
+odm/etc/camera/fb_model/SkinLUT_BW.bin
+odm/etc/camera/fb_model/SkinLUT_Red.bin
+odm/etc/camera/fb_model/beauty_body.bin
+odm/etc/camera/fb_model/brightLut.bin
+odm/etc/camera/fb_model/brightLut.png
+odm/etc/camera/fb_model/eyeBright.png
+odm/etc/camera/fb_model/eye_retouch_chinese.bin
+odm/etc/camera/fb_model/eyesMask.bin
+odm/etc/camera/fb_model/eyesMask.png
+odm/etc/camera/fb_model/eyesMaskNew.bin
+odm/etc/camera/fb_model/eyesMaskNew.png
+odm/etc/camera/fb_model/face_eyeRed_chinese.bin
+odm/etc/camera/fb_model/face_faceshadow_chinese.bin
+odm/etc/camera/fb_model/face_facewarp_chinese.bin
+odm/etc/camera/fb_model/face_retouch_chinese.bin
+odm/etc/camera/fb_model/face_retouch_pre_chinese.bin
+odm/etc/camera/fb_model/face_retouch_pre_chinese_wechat.bin
+odm/etc/camera/fb_model/faceshine_base.bin
+odm/etc/camera/fb_model/mouthmask.png
+odm/etc/camera/fb_model/preSkinmask137.bin
+odm/etc/camera/fb_model/preSkinmask137.png
+odm/etc/camera/fb_model/preSkinmask296.png
+odm/etc/camera/fb_model/redToneLut.bin
+odm/etc/camera/fb_model/redToneLut.png
+odm/etc/camera/fb_model/skinLUT_white_Bright.bin
+odm/etc/camera/fb_model/skinLUTs00.bin
+odm/etc/camera/fb_model/skinLUTs01.bin
+odm/etc/camera/fb_model/skinLUTs02.bin
+odm/etc/camera/fb_model/skinLUTs03.bin
+odm/etc/camera/fb_model/skinLUTs04.png
+odm/etc/camera/fb_model/skinLUTs05.png
+odm/etc/camera/fb_model/skinLUTs06.png
+odm/etc/camera/fb_model/skinLUTs10.bin
+odm/etc/camera/fb_model/skinLUTs11.bin
+odm/etc/camera/fb_model/skinLUTs12.bin
+odm/etc/camera/fb_model/skinLUTs13.bin
+odm/etc/camera/fb_model/skinLUTs_yuv16_00.bin
+odm/etc/camera/fb_model/skinLUTs_yuv16_01.bin
+odm/etc/camera/fb_model/skinLUTs_yuv16_02.bin
+odm/etc/camera/fb_model/skinLUTs_yuv16_03.bin
+odm/etc/camera/fb_model/skinLUTs_yuv16_10.bin
+odm/etc/camera/fb_model/skinLUTs_yuv16_11.bin
+odm/etc/camera/fb_model/skinLUTs_yuv16_12.bin
+odm/etc/camera/fb_model/skinLUTs_yuv16_13.bin
+odm/etc/camera/fb_model/skinmask.bin
+odm/etc/camera/fb_model/skinmask.png
+odm/etc/camera/fb_model/skinmask_new.png
+odm/etc/camera/fb_model/snapEyeBright.bin
+odm/etc/camera/fb_model/snapEyeMask.bin
+odm/etc/camera/fb_model/snapEyeMask.png
+odm/etc/camera/fb_model/snapFemale000.bin
+odm/etc/camera/fb_model/snapFemale001.bin
+odm/etc/camera/fb_model/snapFemale002.bin
+odm/etc/camera/fb_model/snapFemale003.bin
+odm/etc/camera/fb_model/snapMale010.bin
+odm/etc/camera/fb_model/snapMale011.bin
+odm/etc/camera/fb_model/snapMale012.bin
+odm/etc/camera/fb_model/snapMouthMask.bin
+odm/etc/camera/fb_model/snapSkinmask.bin
+odm/etc/camera/fb_model/unify_skin_base.bin
+odm/etc/camera/fb_model/whiteToneLut.bin
+odm/etc/camera/fb_model/whiteToneLut.png
+odm/etc/camera/filters_lut/masterlut/FromXml
+odm/etc/camera/filters_lut/masterlut/ODT_Photo
+odm/etc/camera/filters_lut/masterlut/SimTool.ini
+odm/etc/camera/filters_lut/B1VLf4peM
+odm/etc/camera/filters_lut/B1aMqioxf
+odm/etc/camera/filters_lut/B1nmcmWbG
+odm/etc/camera/filters_lut/B1si_XbZz
+odm/etc/camera/filters_lut/B612Pretty.cube.rgb.bin
+odm/etc/camera/filters_lut/BJJAwoigM
+odm/etc/camera/filters_lut/BJyKIwqxz
+odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin
+odm/etc/camera/filters_lut/ByW7g4bbf
+odm/etc/camera/filters_lut/ByYo3If
+odm/etc/camera/filters_lut/BycYf7WWz
+odm/etc/camera/filters_lut/Cold.cube.rgb.bin
+odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin
+odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin
+odm/etc/camera/filters_lut/Delta400.3dl.rgb.bin
+odm/etc/camera/filters_lut/Emerald.cube.rgb.bin
+odm/etc/camera/filters_lut/EyxRbD2UCe
+odm/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin
+odm/etc/camera/filters_lut/InsClarendon.cube.rgb.bin
+odm/etc/camera/filters_lut/InsJuno.cube.rgb.bin
+odm/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin
+odm/etc/camera/filters_lut/LMT_6_D65_33.cube
+odm/etc/camera/filters_lut/Martin.cube.rgb.bin
+odm/etc/camera/filters_lut/ODT_2020_PQ10000nits-P3_srgb,roll-off_33_ver5.cube
+odm/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin
+odm/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin
+odm/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin
+odm/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/Radiance.cube.rgb.bin
+odm/etc/camera/filters_lut/SJ3mbr6ef
+odm/etc/camera/filters_lut/Serenity.cube.rgb.bin
+odm/etc/camera/filters_lut/SkpZ8ebbz
+odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin
+odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/Sy4uLSTgf
+odm/etc/camera/filters_lut/Syt2KeZZf
+odm/etc/camera/filters_lut/Texture-70.cube.rgb.bin
+odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin
+odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin
+odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin
+odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/VigTab_Main
+odm/etc/camera/filters_lut/VigTab_Tele
+odm/etc/camera/filters_lut/VigTab_UTele
+odm/etc/camera/filters_lut/VigTab_Wide
+odm/etc/camera/filters_lut/White.cube.rgb.bin
+odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin
+odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin
+odm/etc/camera/filters_lut/black_gold.bin
+odm/etc/camera/filters_lut/blackandwhite.cube.rgb.bin
+odm/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin
+odm/etc/camera/filters_lut/bright_coloured.bin
+odm/etc/camera/filters_lut/bt2020_to_p3_3dlut.cube
+odm/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin
+odm/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin
+odm/etc/camera/filters_lut/cola.bin
+odm/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin
+odm/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin
+odm/etc/camera/filters_lut/default
+odm/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin
+odm/etc/camera/filters_lut/dolby_preview_3dlut.cube
+odm/etc/camera/filters_lut/dolby_preview_hdr_3dlut.cube
+odm/etc/camera/filters_lut/dolby_preview_sdr_3dlut.cube
+odm/etc/camera/filters_lut/drjw1994.bin
+odm/etc/camera/filters_lut/drjw2010.bin
+odm/etc/camera/filters_lut/empty_33.cube
+odm/etc/camera/filters_lut/f_bin_hideaki
+odm/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin
+odm/etc/camera/filters_lut/f_contrast_gray_face_dark
+odm/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin
+odm/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin
+odm/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin
+odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin
+odm/etc/camera/filters_lut/fuji.cube.rgb.bin
+odm/etc/camera/filters_lut/gourmet.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-24hour-city.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-3dcity.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-after-glow.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-azure-water.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-beach.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-blue-water.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-coco-grove.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-crisp-fall.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-desert.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-earth.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-japan.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-lake.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-mountainous.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-old-times.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-quietly-ele.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-rosy.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-steaming.cube.rgb.bin
+odm/etc/camera/filters_lut/interstellar_space.bin
+odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin
+odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin
+odm/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin
+odm/etc/camera/filters_lut/kodak.cube.rgb.bin
+odm/etc/camera/filters_lut/log_video_hdr_3dlut.cube
+odm/etc/camera/filters_lut/log_video_sdr_3dlut.cube
+odm/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin
+odm/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin
+odm/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin
+odm/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin
+odm/etc/camera/filters_lut/mono.cube.rgb.bin
+odm/etc/camera/filters_lut/morandi.cube.rgb.bin
+odm/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin
+odm/etc/camera/filters_lut/natural.cube.rgb.bin
+odm/etc/camera/filters_lut/neon-2020.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin
+odm/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin
+odm/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin
+odm/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus_r4.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus_r5.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus_r6.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus_video_filter_black_and_white
+odm/etc/camera/filters_lut/oplus_video_filter_highlight
+odm/etc/camera/filters_lut/oplus_video_filter_ins
+odm/etc/camera/filters_lut/oplus_video_filter_natal
+odm/etc/camera/filters_lut/oplus_video_filter_olympus
+odm/etc/camera/filters_lut/oplus_video_filter_plain
+odm/etc/camera/filters_lut/oplus_video_filter_show
+odm/etc/camera/filters_lut/oplus_video_filter_solar
+odm/etc/camera/filters_lut/oplus_video_filter_strong
+odm/etc/camera/filters_lut/oplus_video_filter_west
+odm/etc/camera/filters_lut/p3_to_bt2020_3dlut.cube
+odm/etc/camera/filters_lut/p3_to_bt2020_3dlut_light.cube
+odm/etc/camera/filters_lut/p4_1.cube.rgb.bin
+odm/etc/camera/filters_lut/p4_2.cube.rgb.bin
+odm/etc/camera/filters_lut/p4_3.cube.rgb.bin
+odm/etc/camera/filters_lut/p4_4.cube.rgb.bin
+odm/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin
+odm/etc/camera/filters_lut/r1JaFSZZG
+odm/etc/camera/filters_lut/r1PrfoolG
+odm/etc/camera/filters_lut/rJ5g5vPWG
+odm/etc/camera/filters_lut/rJxJtmaez
+odm/etc/camera/filters_lut/red-red.cube.rgb.bin
+odm/etc/camera/filters_lut/rkMhq4ZWf
+odm/etc/camera/filters_lut/rkx5u4Zbf
+odm/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin
+odm/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin
+odm/etc/camera/filters_lut/sky-blue.cube.rgb.bin
+odm/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin
+odm/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin
+odm/etc/camera/filters_lut/tree-green.cube.rgb.bin
+odm/etc/camera/filters_lut/type_fuji_acros
+odm/etc/camera/filters_lut/type_fuji_astia
+odm/etc/camera/filters_lut/type_fuji_chrome
+odm/etc/camera/filters_lut/type_fuji_provia
+odm/etc/camera/filters_lut/type_fuji_velvia
+odm/etc/camera/filters_lut/vivid-cool.cube.rgb.bin
+odm/etc/camera/filters_lut/vivid-lut.cube.rgb.bin
+odm/etc/camera/filters_lut/vivid-warm.cube.rgb.bin
+odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin
+odm/etc/camera/filters_res/film_grain_small.bin
+odm/etc/camera/filters_res/lut_all_points.png
+odm/etc/camera/filters_res/overlay_p4_3_weak.png
+odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model
+odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model
+odm/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model
+odm/etc/camera/gesture/tt_hand_box_reg_v12.0.model
+odm/etc/camera/gesture/tt_hand_det_v11.0.model
+odm/etc/camera/gesture/tt_hand_gesture_v11.1.model
+odm/etc/camera/gesture/tt_hand_kp_v6.0.model
+odm/etc/camera/gesture/tt_hand_lr_v3.0.model
+odm/etc/camera/hybridraw_models/QRCodeFlattenPriors.bin
+odm/etc/camera/hybridraw_models/QRCodeFlattenStride.bin
+odm/etc/camera/hybridraw_models/QRCode_det.bin
+odm/etc/camera/hybridraw_models/aiDehaze_Heavy.bix
+odm/etc/camera/hybridraw_models/aiDehaze_Light.bix
+odm/etc/camera/hybridraw_models/aiFogDet.bix
+odm/etc/camera/hybridraw_models/ai_flow_back.bix
+odm/etc/camera/hybridraw_models/ai_motion_detection.bix
+odm/etc/camera/hybridraw_models/ai_motion_mask_0p5M.bix
+odm/etc/camera/hybridraw_models/ai_motion_mask_12MTele_bs1_w8a8.bix
+odm/etc/camera/hybridraw_models/ai_motion_mask_12MTele_bs3_w8a8.bix
+odm/etc/camera/hybridraw_models/ai_multi_scene_det.bix
+odm/etc/camera/hybridraw_models/ai_seg_sky_day.bix
+odm/etc/camera/hybridraw_models/ai_seg_sky_night.bix
+odm/etc/camera/hybridraw_models/ai_sunset_classify_highRes.bix
+odm/etc/camera/hybridraw_models/detail_net.bin
+odm/etc/camera/hybridraw_models/faceDetPriors.bin
+odm/etc/camera/hybridraw_models/face_det.bin
+odm/etc/camera/hybridraw_models/gan_enhancer_20x.bin
+odm/etc/camera/hybridraw_models/gan_enhancer_40x.bin
+odm/etc/camera/hybridraw_models/gan_enhancer_60x_sd.bin
+odm/etc/camera/hybridraw_models/gan_enhancer_80x.bin
+odm/etc/camera/hybridraw_models/gan_enhancer_90x_sd.bin
+odm/etc/camera/hybridraw_models/pedestrianDetPriors.bin
+odm/etc/camera/hybridraw_models/pedestrian_det.bin
+odm/etc/camera/hybridraw_models/postSr.bin
+odm/etc/camera/hybridraw_models/sd_noise0.bin
+odm/etc/camera/hybridraw_models/tele_binning_ev0.bin
+odm/etc/camera/hybridraw_models/tele_binning_evm.bin
+odm/etc/camera/hybridraw_models/tele_quadbayer_ev0.bin
+odm/etc/camera/hybridraw_models/tele_quadbayer_evmm.bin
+odm/etc/camera/hybridraw_models/text_det.bin
+odm/etc/camera/hybridraw_models/text_embedding.bin
+odm/etc/camera/hybridraw_models/unet.bix
+odm/etc/camera/hybridraw_models/vae_decoder.bix
+odm/etc/camera/hybridraw_models/vae_decoder_vertical.bix
+odm/etc/camera/hybridraw_models/vae_encoder.bix
+odm/etc/camera/hybridraw_models/vae_encoder_vertical.bix
+odm/etc/camera/livephoto_coverenhancer/libs/libODNN.so;MODULE_SUFFIX=.livephoto
+odm/etc/camera/livephoto_coverenhancer/libs/libOPAlgoCamCoverEnhancer.so
+odm/etc/camera/livephoto_coverenhancer/libs/libQnnHtp.so;MODULE_SUFFIX=.livephoto
+odm/etc/camera/livephoto_coverenhancer/libs/libQnnHtpV81Skel.so;MODULE_SUFFIX=.livephoto
+odm/etc/camera/livephoto_coverenhancer/libs/libQnnHtpV81Stub.so;MODULE_SUFFIX=.livephoto
+odm/etc/camera/livephoto_coverenhancer/libs/libQnnSystem.so;MODULE_SUFFIX=.livephoto
+odm/etc/camera/livephoto_coverenhancer/libs/libsharebuffer.so;MODULE_SUFFIX=.livephoto
+odm/etc/camera/livephoto_coverenhancer/libs/libtrace.so;MODULE_SUFFIX=.livephoto
+odm/etc/camera/livephoto_coverenhancer/libs/libzlib.so;MODULE_SUFFIX=.livephoto
+odm/etc/camera/livephoto_coverenhancer/models/RRDBNet_sm8850.bin
+odm/etc/camera/meishe_lut/800t_blues.bin
+odm/etc/camera/meishe_lut/800t_hdr.bin
+odm/etc/camera/meishe_lut/800t_sdr.bin
+odm/etc/camera/meishe_lut/ByYo3If
+odm/etc/camera/meishe_lut/Cold.cube.rgb.bin
+odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin
+odm/etc/camera/meishe_lut/DL_B_Inception.bin
+odm/etc/camera/meishe_lut/DL_C_R3_80.bin
+odm/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin
+odm/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin
+odm/etc/camera/meishe_lut/Delta400.3dl.rgb.bin
+odm/etc/camera/meishe_lut/Emerald.cube.rgb.bin
+odm/etc/camera/meishe_lut/Fuji.bin
+odm/etc/camera/meishe_lut/Kodak.bin
+odm/etc/camera/meishe_lut/Martin.cube.rgb.bin
+odm/etc/camera/meishe_lut/Moonlight.bin
+odm/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin
+odm/etc/camera/meishe_lut/Radiance.cube.rgb.bin
+odm/etc/camera/meishe_lut/Serenity.cube.rgb.bin
+odm/etc/camera/meishe_lut/Texture-70.cube.rgb.bin
+odm/etc/camera/meishe_lut/White.cube.rgb.bin
+odm/etc/camera/meishe_lut/black_gold.bin
+odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin
+odm/etc/camera/meishe_lut/bright_coloured.bin
+odm/etc/camera/meishe_lut/ccd_base_cold.bin
+odm/etc/camera/meishe_lut/ccd_base_warm.bin
+odm/etc/camera/meishe_lut/city.cube.rgb.bin
+odm/etc/camera/meishe_lut/cola.bin
+odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin
+odm/etc/camera/meishe_lut/drjw1994.bin
+odm/etc/camera/meishe_lut/drjw2010.bin
+odm/etc/camera/meishe_lut/fuji-cc-high.bin
+odm/etc/camera/meishe_lut/fuji-cc-low.bin
+odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin
+odm/etc/camera/meishe_lut/fuji-nc.bin
+odm/etc/camera/meishe_lut/fuji-proNegHi.bin
+odm/etc/camera/meishe_lut/fuji.cube.rgb.bin
+odm/etc/camera/meishe_lut/fuji_cc.bin
+odm/etc/camera/meishe_lut/gourmet.cube.rgb.bin
+odm/etc/camera/meishe_lut/gr.bw.rgba.bin
+odm/etc/camera/meishe_lut/gr.hi.bw.rgba.bin
+odm/etc/camera/meishe_lut/gr.nega.rgba.bin
+odm/etc/camera/meishe_lut/gr.posi.rgba.bin
+odm/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-beach.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-desert.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin
+odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin
+odm/etc/camera/meishe_lut/interstellar_space.bin
+odm/etc/camera/meishe_lut/island.cube.rgb.bin
+odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin
+odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin
+odm/etc/camera/meishe_lut/jzk-movie.cube.rgb.bin
+odm/etc/camera/meishe_lut/kodak.cube.rgb.bin
+odm/etc/camera/meishe_lut/meicam.child.bin
+odm/etc/camera/meishe_lut/mono.cube.rgb.bin
+odm/etc/camera/meishe_lut/morandi.cube.rgb.bin
+odm/etc/camera/meishe_lut/mountains.cube.rgb.bin
+odm/etc/camera/meishe_lut/natural.cube.rgb.bin
+odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin
+odm/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin
+odm/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin
+odm/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin
+odm/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin
+odm/etc/camera/meishe_lut/p4_1.cube.rgb.bin
+odm/etc/camera/meishe_lut/p4_3.cube.rgb.bin
+odm/etc/camera/meishe_lut/rJ5g5vPWG
+odm/etc/camera/meishe_lut/red-red.cube.rgb.bin
+odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin
+odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin
+odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin
+odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin
+odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin
+odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin
+odm/etc/camera/model/DocDetectV15.xbin
+odm/etc/camera/oplus_seg_sdk/oppseg.json
+odm/etc/camera/oplus_seg_sdk/oppseg_q.dlx
+odm/etc/camera/oplus_seg_sdk/petseg.json
+odm/etc/camera/oplus_seg_sdk/petseg_q.dlx
+odm/etc/camera/pfb_bin/PreCalVarBinary.bin
+odm/etc/camera/pfb_bin/PreHighPassBinary.bin
+odm/etc/camera/pfb_bin/PreHighPassPreBinary.bin
+odm/etc/camera/pfb_bin/PreHoriFilterBinary.bin
+odm/etc/camera/pfb_bin/PreMakeupBinary.bin
+odm/etc/camera/pfb_bin/PreMakeupMultiFaceBinary.bin
+odm/etc/camera/pfb_bin/PreMakeupSingleFaceBinary.bin
+odm/etc/camera/pfb_bin/PreMorphBinary.bin
+odm/etc/camera/pfb_bin/PreOnlywhitenBinary.bin
+odm/etc/camera/pfb_bin/PreSkintuneBinary.bin
+odm/etc/camera/pfb_bin/PreSkintuneMRTBinary.bin
+odm/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin
+odm/etc/camera/pfb_bin/PreVertFilterBinary.bin
+odm/etc/camera/pfb_bin/PreVertSurBinary.bin
+odm/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin
+odm/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin
+odm/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin
+odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin
+odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin
+odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin
+odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin
+odm/etc/camera/singleblur/personseg.bin
+odm/etc/camera/singleblur/preview_seg.json
+odm/etc/camera/sticker/material/animoji/data.zip
+odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip
+odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
+odm/etc/camera/AiFace.json
+odm/etc/camera/BodySeg.json
+odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/DitherTabU8
+odm/etc/camera/OplusOfflineReprocess.json
+odm/etc/camera/Vega_Align_occlusion.model
+odm/etc/camera/Vega_Align_occlusion_snap.model
+odm/etc/camera/Vega_Attribute_Face_RGB.model
+odm/etc/camera/Vega_Detect_AnimalBodyFaceEye_Gray.model
+odm/etc/camera/Vega_Detect_BodyHead_Gray.model
+odm/etc/camera/Vega_Detect_CommonFace_BGR.model
+odm/etc/camera/Vega_Detect_CommonFace_BGR_PZ.model
+odm/etc/camera/Vega_Front_Align_occlusion.model
+odm/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye.model
+odm/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye_BGR.model
+odm/etc/camera/Vega_Refine_RectQuality_HumanBodyFaceEye_Gray.model
+odm/etc/camera/Vega_Track_AnimalsBodyFaceEye_Gray.model
+odm/etc/camera/Vega_Track_FaceRect20cls.model
+odm/etc/camera/Vega_Track_FaceRect20cls_snap.model
+odm/etc/camera/Vega_Track_HumanBody_Gray.model
+odm/etc/camera/aiboost_qnn_htp2.7.2_16382673562495086299.bin
+odm/etc/camera/aiboost_qnn_htp2.7.2_828413902960689361.bin
+odm/etc/camera/anc_cl_kernel.cache
+odm/etc/camera/camera_engmode.xml
+odm/etc/camera/capture_bokeh_params.json
+odm/etc/camera/capture_lutportrait_params.json
+odm/etc/camera/capture_neonportrait_params.json
+odm/etc/camera/conf_tuning_params.json
+odm/etc/camera/distortionParams.bin
+odm/etc/camera/dolby_vainr_cfg.json
+odm/etc/camera/eis_camera.vcfg
+odm/etc/camera/fb_default
+odm/etc/camera/fb_original
+odm/etc/camera/fwk_config.json
+odm/etc/camera/gamma_masterMode_quick_hdr_conf.json
+odm/etc/camera/gamma_photo_hdr_conf.json
+odm/etc/camera/gamma_photo_sdr_conf.json
+odm/etc/camera/gamma_preview_hdr_conf.json
+odm/etc/camera/gamma_preview_sdr_conf.json
+odm/etc/camera/gamma_quick_hdr_conf.json
+odm/etc/camera/gamma_quick_sdr_conf.json
+odm/etc/camera/gm_tcs3449_golden
+odm/etc/camera/main_inv_mapxy_33x25.bin
+odm/etc/camera/main_mapxy_33x25.bin
+odm/etc/camera/media_profiles.xml
+odm/etc/camera/model_fdc.data
+odm/etc/camera/mtStereoParams.bin
+odm/etc/camera/mtStereoParams_far.bin
+odm/etc/camera/mvg_sat_config.json
+odm/etc/camera/mwStereoParams.bin
+odm/etc/camera/neon_yuv_LUT_64.bin
+odm/etc/camera/oplus_eis_camera.vcfg
+odm/etc/camera/qnn_binary_9052758122668408981.bin
+odm/etc/camera/salient2_seg.bin
+odm/etc/camera/self_ois.ocfg
+odm/etc/camera/selfbokehParam.json
+odm/etc/camera/selfbokehmodel.bin
+odm/etc/camera/settings_fdc.txt
+odm/etc/camera/settings_fdc_lite.txt
+odm/etc/camera/tele_inv_mapxy_33x25.bin
+odm/etc/camera/tele_mapxy_33x25.bin
+odm/etc/camera/text_enhance_yuv_v1.tflite
+odm/etc/camera/v10_vamm_sig_norm_0408_8143-SIM-fp16-8850.bin
+odm/etc/camera/vainr_cfg.json
+odm/etc/camera/video_MLFT_Post_Main.json
+odm/etc/camera/video_MLFT_Post_Tele.json
+odm/etc/camera/video_MLFT_Post_Ultra_Tele.json
+odm/etc/camera/video_MLFT_Post_Wide.json
+odm/etc/camera/wide_inv_padding_mapxy_33x25.bin
+odm/etc/camera/wide_padding_mapxy_33x25.bin
+odm/etc/init/init.camera_debug_ui.rc
+odm/etc/init/init.camera_process.rc
+odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc
+odm/etc/vintf/manifest/manifest_oplus_camera_rfi.xml
+odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml
+odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
+odm/etc/vintf/manifest/vendor.oplus.camera.aon-impl.xml
+odm/lib64/camera/components/com.oplus.node.detect.so
+odm/lib64/camera/components/com.oplus.node.mvgsat.so
+odm/lib64/camera/components/com.oplus.node.postproc.so
+odm/lib64/camera/components/com.oplus.node.sstabdefer.so
+odm/lib64/camera/components/com.oplus.node.sstabphoto.so
+odm/lib64/camera/components/com.oplus.node.sstabrealt.so
+odm/lib64/camera/components/com.oplus.node.videoainr.so
+odm/lib64/camera/components/com.oplus.node.videomlft.so
+odm/lib64/camera/components/com.oplus.stats.aec.so
+odm/lib64/camera/components/com.oplus.stats.af.so
+odm/lib64/camera/components/com.oplus.stats.awb.so
+odm/lib64/camera/components/com.oplus.stats.pdlib.so
+odm/lib64/camera/components/libcamxoemsatsoftwarefusionwrapper.so
+odm/lib64/camera/components/libcamxoemsatwrapper.so
+odm/lib64/camera/awb_parameter_default.bin
+odm/lib64/camera/com.qti.tuned.default.canoe.bin
+odm/lib64/camera/libaecCustomParam_Cam0.bin
+odm/lib64/camera/libaecCustomParam_Cam1.bin
+odm/lib64/camera/libaecCustomParam_Cam2.bin
+odm/lib64/camera/libaecCustomParam_Cam3.bin
+odm/lib64/camera/libafCustomParam_Cam0.bin
+odm/lib64/camera/libafCustomParam_Cam1.bin
+odm/lib64/camera/libafCustomParam_Cam2.bin
+odm/lib64/camera/libafCustomParam_Cam3.bin
+odm/lib64/camera/libpdCustomParam_Cam0.bin
+odm/lib64/camera/libpdCustomParam_Cam1.bin
+odm/lib64/camera/libpdCustomParam_Cam2.bin
+odm/lib64/camera/libpdCustomParam_Cam3.bin
+odm/lib64/camera/revision.txt
+odm/lib64/bm6a81v04s14n02.bin
+odm/lib64/bm6a81v04s14n05.bin
+odm/lib64/bm6a81v04s14n06.bin
+odm/lib64/bm6a81v04s14n08.bin
+odm/lib64/bm6a81v04s14n12.bin
+odm/lib64/bm6a81v04s14n16.bin
+odm/lib64/bm6a81v04s14n17.bin
+odm/lib64/bm6a81v04s14n18.bin
+odm/lib64/bm6a81v04s14n19.bin
+odm/lib64/bm6a81v04s14n20.bin
+odm/lib64/bm6a81v04s14n21.bin
+odm/lib64/bm6a81v04s14n22.bin
+odm/lib64/bm6a81v04s14n23.bin
+odm/lib64/bm6a81v04s14n24.bin
+odm/lib64/bm6a81v04s14n25.bin
+odm/lib64/bm6a81v04s14n28.bin
+odm/lib64/bm6a81v04s14n43.bin
+odm/lib64/bm6a81v04s14n44.bin
+odm/lib64/bm6a81v04s14n45.bin
+odm/lib64/bm6a81v04s14n54.bin
+odm/lib64/bm6a81v04s14n56.bin
+odm/lib64/bm6a81v04s14n57.bin
+odm/lib64/bm6a81v04s14n58.bin
+odm/lib64/bm6a81v04s14n59.bin
+odm/lib64/bm6a81v04s14n62.bin
+odm/lib64/bm6a81v04s14n63.bin
+odm/lib64/bm6a81v04s14n64.bin
+odm/lib64/bm6a81v04s14n65.bin
+odm/lib64/bm6a81v04s14n66.bin
+odm/lib64/bm6a81v04s14n67.bin
+odm/lib64/bm6a81v04s14n68.bin
+odm/lib64/bm6a81v04s14n69.bin
+odm/lib64/bm6a81v04s14n70.bin
+odm/lib64/bm6a81v04s14n71.bin
+odm/lib64/bm6a81v04s14n72.bin
+odm/lib64/bm6a81v04s14n73.bin
+odm/lib64/bm6a81v04s14n74.bin
+odm/lib64/bm6a81v08s14n00.sm8850.bin
+odm/lib64/bm6a81v08s14n01.sm8850.bin
+odm/lib64/bm6a81v08s14n03.bin
+odm/lib64/bm6a81v08s14n04.bin
+odm/lib64/bm6a81v08s14n07.bin
+odm/lib64/bm6a81v08s14n09.bin
+odm/lib64/bm6a81v08s14n10.bin
+odm/lib64/bm6a81v08s14n11.bin
+odm/lib64/bm6a81v08s14n13.bin
+odm/lib64/bm6a81v08s14n14.bin
+odm/lib64/bm6a81v08s14n15.bin
+odm/lib64/bm6a81v08s14n29.bin
+odm/lib64/bm6a81v08s14n31.bin
+odm/lib64/bm6a81v08s14n32.bin
+odm/lib64/bm6a81v08s14n33.bin
+odm/lib64/bm6a81v08s14n34.bin
+odm/lib64/bm6a81v08s14n35.sm8850.bin
+odm/lib64/bm6a81v08s14n36.sm8850.bin
+odm/lib64/bm6a81v08s14n37.bin
+odm/lib64/bm6a81v08s14n38.sm8850.bin
+odm/lib64/bm6a81v08s14n39.sm8850.bin
+odm/lib64/bm6a81v08s14n50.sm8850.bin
+odm/lib64/bm6a81v08s14n51.sm8850.bin
+odm/lib64/bm6a81v08s14n55.bin
+odm/lib64/bm6a81v08s14n60.bin
+odm/lib64/bm6a81v08s14n75.bin
+odm/lib64/bm6a81v08s14n76.bin
+odm/lib64/bm6a81v08s14n78.bin
+odm/lib64/bm6a81v08s14n80.bin
+odm/lib64/bm6a81v08s14n83.bin
+odm/lib64/bm6a81v08s14n85.bin
+odm/lib64/bm6a81v08s14n86.bin
+odm/lib64/camera.oemlayer.adapter.so
+odm/lib64/camera.oemlayer.healthmonitor.so
+odm/lib64/camera.oemlayer.logger.so
+odm/lib64/camera.oemlayer.uilayer.so
+odm/lib64/com.oplus.mcx.linearmapper.so
+odm/lib64/com.oplus.node.preview.v2.so
+odm/lib64/lib2DSlender.so
+odm/lib64/libAECParamParser.so
+odm/lib64/libAF.so
+odm/lib64/libAFParamParser.so
+odm/lib64/libAlgoInterface.so
+odm/lib64/libAlgoProcess.so
+odm/lib64/libAncFilter.so
+odm/lib64/libAncSegBaseSdk.so
+odm/lib64/libAncSegmentSdk.so
+odm/lib64/libBasicTonePhoto.so
+odm/lib64/libBokehPre.so
+odm/lib64/libCS.so
+odm/lib64/libCaptureBokeh.so
+odm/lib64/libDocRectification.so
+odm/lib64/libEIS.so
+odm/lib64/libEISLive.so
+odm/lib64/libFDClite.so
+odm/lib64/libFaceBeautyJni.so
+odm/lib64/libFaceBeautyPre.so
+odm/lib64/libFaceDistortionCorrection.so
+odm/lib64/libHDRDetection.so
+odm/lib64/libHIS.so
+odm/lib64/libImageWarpMask.so;FIX_SONAME
+odm/lib64/libImplicitWatermark.so
+odm/lib64/libMNN.so
+odm/lib64/libODNN.so
+odm/lib64/libOPAlgoCamAIBeautyBodyDetection.so
+odm/lib64/libOPAlgoCamAiBeautyFaceRetouchCn.so
+odm/lib64/libOPAlgoCamAiUnifySkin.so
+odm/lib64/libOPAlgoCamFaceBeautyCap.so
+odm/lib64/libOPAlgoCamFaceRestore.so
+odm/lib64/libOPAlgoCamGroupClassifier.so
+odm/lib64/libOPAlgoCamHDRTransformCamera.so
+odm/lib64/libOPAlgoCamHDRTransformQuick.so
+odm/lib64/libOPAlgoCamHybridRaw.so
+odm/lib64/libOPAlgoCamPortraitHDRTransform.so
+odm/lib64/libOPAlgoCamSegment.so
+odm/lib64/libOPAlgoCamSinglePortrait.so
+odm/lib64/libOPLUSMotionDetection.so
+odm/lib64/libOplusPDCore.so
+odm/lib64/libOpo_awb.so
+odm/lib64/libRedeyeReduce.so
+odm/lib64/libSchedAssistExtImpl_vendor.so
+odm/lib64/libSuperRaw.so
+odm/lib64/libUpScale.so
+odm/lib64/libVideoAIProc.so
+odm/lib64/libVideoMLFT.so
+odm/lib64/libWaterMark.so
+odm/lib64/lib_geofencing.so
+odm/lib64/lib_rectify.so
+odm/lib64/libaecCustom.so
+odm/lib64/libai_perception_scene_detect.so
+odm/lib64/libaiboost_wechat_qnn_sr.so
+odm/lib64/libaiboost_wechat_sr.so
+odm/lib64/libaisal.so
+odm/lib64/libaisd.so
+odm/lib64/libaisd_fullfov.so
+odm/lib64/libaiseg.so
+odm/lib64/libalCFR.so
+odm/lib64/libalog.so
+odm/lib64/libancbase_rt_fusion.so;FIX_SONAME
+odm/lib64/libapsdngsdk.so
+odm/lib64/libapsexif.so
+odm/lib64/libapsjpeg.so
+odm/lib64/libapspng.so
+odm/lib64/libapsultrahdr.so
+odm/lib64/libapsyuv.so
+odm/lib64/libarc.ion.so
+odm/lib64/libarcsoft_ai_moon.so
+odm/lib64/libarcsoft_hdr_couple_api.so
+odm/lib64/libarcsoft_high_dynamic_range_couple.so
+odm/lib64/libarcsoft_long_exposure_capture.so;FIX_SONAME
+odm/lib64/libarcsoft_long_exposure_preview.so;FIX_SONAME
+odm/lib64/libarcsoft_preview_antibanding.so
+odm/lib64/libarcsoft_qnnhtp.so
+odm/lib64/libarcsoft_scbokeh_video.so
+odm/lib64/libarcsoft_smart_denoise.so
+odm/lib64/libarcsoft_tfm.so
+odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
+odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
+odm/lib64/libarcsoft_turbo_hdr_grf.so
+odm/lib64/libarcsoft_turbo_hdr_raw.so
+odm/lib64/libarcsoft_turbo_hdr_raw_front.so
+odm/lib64/libarcsoft_turbo_raw.so
+odm/lib64/libarcsoft_videoautozoom.so;FIX_SONAME
+odm/lib64/libc++_shared.so
+odm/lib64/libcam.odnn.interface.so
+odm/lib64/libcam.oplus.3a.v3.so
+odm/lib64/libcam.oplus.3a.v4.so
+odm/lib64/libcreateFDCLitecachebin.so
+odm/lib64/libcreateFDCcachebin.so
+odm/lib64/libcreatebin.so
+odm/lib64/libcreatebinForBaseretouch.so
+odm/lib64/libcreatebinForFaceretouch.so
+odm/lib64/libdlrmsc.so
+odm/lib64/libdngsdkwrapper.so
+odm/lib64/libeffect_custom.so
+odm/lib64/libexif-jpeg-aps.so
+odm/lib64/libextendfile.so
+odm/lib64/libextensionlayer.so
+odm/lib64/libfovctrl.so
+odm/lib64/libfusioninterpolation.arcsoft.so
+odm/lib64/libhcsfwk.so
+odm/lib64/libhcsutils.so
+odm/lib64/libhwconfigurationutil.so
+odm/lib64/libhybridraw_datas.so
+odm/lib64/libhybridraw_tuningparams.so
+odm/lib64/libimgClarityEvaluate.so
+odm/lib64/libmpbase.so
+odm/lib64/libmsnativefilter.so
+odm/lib64/libmvgcommon.so
+odm/lib64/libmvgfusion.so
+odm/lib64/libocce3a.so
+odm/lib64/libocompression.so
+odm/lib64/libomp.so
+odm/lib64/libopluscameraframeboost.so
+odm/lib64/liboplusdfx.so
+odm/lib64/libopluspdparam.so
+odm/lib64/libosie.so
+odm/lib64/libosie_process.so
+odm/lib64/liboutils.so
+odm/lib64/libpngwrapper.so
+odm/lib64/libqsh.utils.so
+odm/lib64/libremosaic_wrapper.so
+odm/lib64/libremosaiclib.so
+odm/lib64/libsat.so
+odm/lib64/libsaveshaderbin.so
+odm/lib64/libsharebuffer.so
+odm/lib64/libsharebuffer_impl.so
+odm/lib64/libssd_det.so
+odm/lib64/libtensorflowlite_oplus.so
+odm/lib64/libtrace.so
+odm/lib64/libvega_common.so
+odm/lib64/libwatermark_photo.so
+odm/lib64/libwechatsr_ubwc.so
+odm/lib64/libwrapper_te.so
+odm/lib64/libyuvwrapper.so
+odm/lib64/libzlib.so
+odm/lib64/vendor.oplus.hardware.camera.aon-service-impl.so
+odm/lib64/vendor.oplus.hardware.camera_rfi-V1-service-impl.so
+odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
+vendor/bin/hw/vendor.qti.camera.provider-service_64;DISABLE_DEPS
+vendor/etc/init/vendor.qti.camera.provider-service_64.rc
+vendor/etc/vintf/manifest/vendor.qti.camera.aon-impl.xml
+vendor/etc/vintf/manifest/vendor.qti.camera.offlinecamera-impl.xml
+vendor/etc/vintf/manifest/vendor.qti.camera.provider.xml
+vendor/lib64/camera/components/com.qti.eisv2.so
+vendor/lib64/camera/components/com.qti.eisv3.so
+vendor/lib64/camera/components/com.qti.hvx.addconstant.so
+vendor/lib64/camera/components/com.qti.hvx.binning.so
+vendor/lib64/camera/components/com.qti.hwcfg.bps.so
+vendor/lib64/camera/components/com.qti.hwcfg.ife.so
+vendor/lib64/camera/components/com.qti.hwcfg.ipe.so
+vendor/lib64/camera/components/com.qti.hwcfg.mctfe.so
+vendor/lib64/camera/components/com.qti.hwcfg.ofe.so
+vendor/lib64/camera/components/com.qti.node.afbfusion.so
+vendor/lib64/camera/components/com.qti.node.aon.so
+vendor/lib64/camera/components/com.qti.node.customhwnode.so
+vendor/lib64/camera/components/com.qti.node.depth.so
+vendor/lib64/camera/components/com.qti.node.depthprovider.so
+vendor/lib64/camera/components/com.qti.node.dewarp.so
+vendor/lib64/camera/components/com.qti.node.dummydepth.so
+vendor/lib64/camera/components/com.qti.node.dummyrtb.so
+vendor/lib64/camera/components/com.qti.node.dummysat.so
+vendor/lib64/camera/components/com.qti.node.eisv2.so
+vendor/lib64/camera/components/com.qti.node.eisv3.so
+vendor/lib64/camera/components/com.qti.node.evadepth.so
+vendor/lib64/camera/components/com.qti.node.evaitof.so
+vendor/lib64/camera/components/com.qti.node.evawarp.so
+vendor/lib64/camera/components/com.qti.node.evs.so
+vendor/lib64/camera/components/com.qti.node.fcv.so
+vendor/lib64/camera/components/com.qti.node.fd.so
+vendor/lib64/camera/components/com.qti.node.formatconversion.so
+vendor/lib64/camera/components/com.qti.node.frc.so
+vendor/lib64/camera/components/com.qti.node.gme.so
+vendor/lib64/camera/components/com.qti.node.gpu.so
+vendor/lib64/camera/components/com.qti.node.gyrornn.so
+vendor/lib64/camera/components/com.qti.node.hdl.so
+vendor/lib64/camera/components/com.qti.node.hdr10pgen.so
+vendor/lib64/camera/components/com.qti.node.hdr10phist.so
+vendor/lib64/camera/components/com.qti.node.hdralign.so
+vendor/lib64/camera/components/com.qti.node.itofpreprocess.so
+vendor/lib64/camera/components/com.qti.node.mctfalign.so
+vendor/lib64/camera/components/com.qti.node.memcpy.so
+vendor/lib64/camera/components/com.qti.node.ml.so
+vendor/lib64/camera/components/com.qti.node.mlinference.so
+vendor/lib64/camera/components/com.qti.node.mmfalign.so
+vendor/lib64/camera/components/com.qti.node.multiport.so
+vendor/lib64/camera/components/com.qti.node.muxer.so
+vendor/lib64/camera/components/com.qti.node.pncdc.so
+vendor/lib64/camera/components/com.qti.node.qsatalign.so
+vendor/lib64/camera/components/com.qti.node.rectification.so
+vendor/lib64/camera/components/com.qti.node.remosaic.so
+vendor/lib64/camera/components/com.qti.node.sat.so
+vendor/lib64/camera/components/com.qti.node.seg.so
+vendor/lib64/camera/components/com.qti.node.spdepth.so
+vendor/lib64/camera/components/com.qti.node.stich.so
+vendor/lib64/camera/components/com.qti.node.swaidenoiser.so
+vendor/lib64/camera/components/com.qti.node.swbestats.so
+vendor/lib64/camera/components/com.qti.node.swcac.so
+vendor/lib64/camera/components/com.qti.node.swec.so
+vendor/lib64/camera/components/com.qti.node.swfusion.so
+vendor/lib64/camera/components/com.qti.node.swhme.so
+vendor/lib64/camera/components/com.qti.node.swlsc.so
+vendor/lib64/camera/components/com.qti.node.swmctf.so
+vendor/lib64/camera/components/com.qti.node.swmlremosaic.so
+vendor/lib64/camera/components/com.qti.node.swpdpc.so
+vendor/lib64/camera/components/com.qti.node.swpnc.so
+vendor/lib64/camera/components/com.qti.node.swpreprocess.so
+vendor/lib64/camera/components/com.qti.node.swregistration.so
+vendor/lib64/camera/components/com.qti.node.swvrt.so
+vendor/lib64/camera/components/com.qti.sensors_process.so
+vendor/lib64/camera/components/com.qti.stats.aec.so
+vendor/lib64/camera/components/com.qti.stats.aecwrapper.so
+vendor/lib64/camera/components/com.qti.stats.aecxcore.so
+vendor/lib64/camera/components/com.qti.stats.af.so
+vendor/lib64/camera/components/com.qti.stats.afc.so
+vendor/lib64/camera/components/com.qti.stats.afd.so
+vendor/lib64/camera/components/com.qti.stats.afwrapper.so
+vendor/lib64/camera/components/com.qti.stats.asd.so
+vendor/lib64/camera/components/com.qti.stats.awb.so
+vendor/lib64/camera/components/com.qti.stats.awbr.so
+vendor/lib64/camera/components/com.qti.stats.awbwrapper.so
+vendor/lib64/camera/components/com.qti.stats.caflogicaldriver.so
+vendor/lib64/camera/components/com.qti.stats.cnndriver.so
+vendor/lib64/camera/components/com.qti.stats.exampleaf.so
+vendor/lib64/camera/components/com.qti.stats.haf.so
+vendor/lib64/camera/components/com.qti.stats.hafoverride.so
+vendor/lib64/camera/components/com.qti.stats.localhistogram.so
+vendor/lib64/camera/components/com.qti.stats.pdlib.so
+vendor/lib64/camera/components/com.qti.stats.pdlibsony.so
+vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so
+vendor/lib64/camera/components/com.qti.stats.roimixer.so
+vendor/lib64/camera/components/com.qti.stats.roimixerlib.so
+vendor/lib64/camera/components/com.qti.stats.statsgenerator.so
+vendor/lib64/camera/components/com.qti.stats.tracker.so
+vendor/lib64/camera/components/com.qtistatic.stats.aec.so
+vendor/lib64/camera/components/com.qtistatic.stats.af.so
+vendor/lib64/camera/components/com.qtistatic.stats.awb.so
+vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
+vendor/lib64/camera/components/libcamxdummysatsnapshotfusionwrapper.so
+vendor/lib64/camera/components/libcamxdummysatsoftwarefusionwrapper.so
+vendor/lib64/camera/components/libcamxdummysatwrapper.so
+vendor/lib64/camera/components/libcamxevainterface.so
+vendor/lib64/camera/components/libdepthmapwrapper.so
+vendor/lib64/camera/components/libdepthmapwrapper_itof.so
+vendor/lib64/camera/components/libdepthmapwrapper_secure.so
+vendor/lib64/camera/bitmlconfig.bin
+vendor/lib64/camera/camxfl115indices.bin
+vendor/lib64/camera/camxfl300v1indices.bin
+vendor/lib64/camera/camxfl300v2indices.bin
+vendor/lib64/camera/camxflcustom300indices.bin
+vendor/lib64/camera/chifdnodeconfig.bin
+vendor/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm7750.bin
+vendor/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm8750.bin
+vendor/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm8850.bin
+vendor/lib64/camera/com.qti.eeprom.gt24p128c2csli_imx766.so
+vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
+vendor/lib64/camera/com.qti.eeprom.p24c256c_imx766.so
+vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
+vendor/lib64/camera/com.qti.ofe.profiledb.default.bin
+vendor/lib64/camera/com.qti.ofe.profiledb.sm8850.bin
+vendor/lib64/camera/com.qti.ois.bu63169gwz.so
+vendor/lib64/camera/com.qti.ois.dw9784.so
+vendor/lib64/camera/com.qti.sensor.imx362.so
+vendor/lib64/camera/com.qti.sensor.imx363.so
+vendor/lib64/camera/com.qti.sensor.imx376.so
+vendor/lib64/camera/com.qti.sensor.imx386.so
+vendor/lib64/camera/com.qti.sensor.imx476.so
+vendor/lib64/camera/com.qti.sensor.imx481.so
+vendor/lib64/camera/com.qti.sensor.imx519.so
+vendor/lib64/camera/com.qti.sensor.imx563.so
+vendor/lib64/camera/com.qti.sensor.imx576.so
+vendor/lib64/camera/com.qti.sensor.imx586.so
+vendor/lib64/camera/com.qti.sensor.imx588.so
+vendor/lib64/camera/com.qti.sensor.imx686.so
+vendor/lib64/camera/com.qti.sensor.imx688.so
+vendor/lib64/camera/com.qti.sensor.imx766.so
+vendor/lib64/camera/com.qti.sensor.imx858.so
+vendor/lib64/camera/com.qti.sensor.imx888.so
+vendor/lib64/camera/com.qti.sensor.max7366_6dof.so
+vendor/lib64/camera/com.qti.sensor.max7366_eyetrack.so
+vendor/lib64/camera/com.qti.sensor.max7366_ov6211.so
+vendor/lib64/camera/com.qti.sensor.max7366_ov9282.so
+vendor/lib64/camera/com.qti.sensor.ov13855.so
+vendor/lib64/camera/com.qti.sensor.ov32c4c.so
+vendor/lib64/camera/com.qti.sensor.ov64b40.so
+vendor/lib64/camera/com.qti.sensor.ov7251.so
+vendor/lib64/camera/com.qti.sensor.s5k2l7.so
+vendor/lib64/camera/com.qti.sensor.s5k2x5sp.so
+vendor/lib64/camera/com.qti.sensor.s5k33dxx.so
+vendor/lib64/camera/com.qti.sensor.s5k3m5.so
+vendor/lib64/camera/com.qti.sensor.s5k3p9.so
+vendor/lib64/camera/com.qti.sensor.s5k4h7.so
+vendor/lib64/camera/com.qti.sensor.s5k5e9yu05.so
+vendor/lib64/camera/com.qti.sensor.s5k5e9yx04.so
+vendor/lib64/camera/com.qti.sensor.s5khp1s.so
+vendor/lib64/camera/com.qti.sensor.s5kjd1sp.so
+vendor/lib64/camera/com.qti.sensor.s5kjn5.so
+vendor/lib64/camera/com.qti.sensormodule.qtech_imx766_lpai_ois.bin
+vendor/lib64/camera/com.qti.sensormodule.qtech_imx766_ois.bin
+vendor/lib64/camera/com.qti.sensormodule.qtech_imx858.bin
+vendor/lib64/camera/com.qti.sensormodule.qtech_s5kjn5.bin
+vendor/lib64/camera/com.qti.sensormodule.qti_tpg0.bin
+vendor/lib64/camera/com.qti.sensormodule.qti_tpg1.bin
+vendor/lib64/camera/com.qti.sensormodule.qti_tpg2.bin
+vendor/lib64/camera/com.qti.sensormodule.shinetech_ov32c4c.bin
+vendor/lib64/camera/com.qti.sensormodule.sony_imx888.bin
+vendor/lib64/camera/com.qti.tuned.default.canoe.bin
+vendor/lib64/camera/com.qti.tuned.qtech_imx766.canoe.bin
+vendor/lib64/camera/com.qti.tuned.qtech_imx858.canoe.bin
+vendor/lib64/camera/com.qti.tuned.qtech_s5kjn5.canoe.bin
+vendor/lib64/camera/com.qti.tuned.shinetech_ov32c.canoe.bin
+vendor/lib64/camera/com.qti.tuned.sony_imx888.canoe.bin
+vendor/lib64/camera/com.qti.tuned.tpg.art.bin
+vendor/lib64/camera/com.qti.tuned.tpg.canoe.bin
+vendor/lib64/camera/com.qti.tuned.tpg2.canoe.bin
+vendor/lib64/camera/fdconfigoffline.bin
+vendor/lib64/camera/fdconfigpreview.bin
+vendor/lib64/camera/fdconfigpreviewlite.bin
+vendor/lib64/camera/fdconfigsecure.bin
+vendor/lib64/camera/fdconfigvideo.bin
+vendor/lib64/camera/fdconfigvideolite.bin
+vendor/lib64/camera/infinitifront_4.pb
+vendor/lib64/camera/lafafront_4.pb
+vendor/lib64/camera/qfdserviceconfig.bin
+vendor/lib64/hw/camera.qcom.core.so
+vendor/lib64/hw/camera.qcom.sm8850.so
+vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/com.qti.chi.offline.so
+vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/camx.device-impl.so
+vendor/lib64/camx.provider-impl.so;DISABLE_DEPS
+vendor/lib64/com.qti.camx.chiiqutils.so
+vendor/lib64/com.qti.chifeaturecompatibility.so
+vendor/lib64/com.qti.chiusecaseselector.so
+vendor/lib64/com.qti.custom.settings.so
+vendor/lib64/com.qti.feature2.afbrckt.so
+vendor/lib64/com.qti.feature2.anchorsync.so
+vendor/lib64/com.qti.feature2.demux.so
+vendor/lib64/com.qti.feature2.derivedoffline.so
+vendor/lib64/com.qti.feature2.frc.so
+vendor/lib64/com.qti.feature2.fusion.so
+vendor/lib64/com.qti.feature2.generic.so
+vendor/lib64/com.qti.feature2.gs.sm8850.so
+vendor/lib64/com.qti.feature2.hdr.so
+vendor/lib64/com.qti.feature2.mcreprocrt.so
+vendor/lib64/com.qti.feature2.memcpy.so
+vendor/lib64/com.qti.feature2.metadataserializer.so
+vendor/lib64/com.qti.feature2.mfsr.so
+vendor/lib64/com.qti.feature2.mfsr.titan.so
+vendor/lib64/com.qti.feature2.ml.so
+vendor/lib64/com.qti.feature2.mux.so
+vendor/lib64/com.qti.feature2.qcfa.so
+vendor/lib64/com.qti.feature2.raw2yuvhdr.so
+vendor/lib64/com.qti.feature2.rawhdr.so
+vendor/lib64/com.qti.feature2.realtimeserializer.so
+vendor/lib64/com.qti.feature2.rt.so
+vendor/lib64/com.qti.feature2.rtmcx.so
+vendor/lib64/com.qti.feature2.rtpostproc.so
+vendor/lib64/com.qti.feature2.serializer.so
+vendor/lib64/com.qti.feature2.statsregeneration.so
+vendor/lib64/com.qti.feature2.stub.so
+vendor/lib64/com.qti.feature2.swmf.so
+vendor/lib64/com.qti.platformsettings.sm8850.so
+vendor/lib64/com.qti.qseeaon.so
+vendor/lib64/com.qti.qseeutils.so
+vendor/lib64/com.qti.settings.sm8850.so
+vendor/lib64/com.qti.sfw.settings.so
+vendor/lib64/com.qti.stats.common.so
+vendor/lib64/com.qti.stats.sotr.so
+vendor/lib64/com.qualcomm.mcx.distortionmapper.so
+vendor/lib64/com.qualcomm.mcx.linearmapper.so
+vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so
+vendor/lib64/com.qualcomm.mcx.policy.mfl.so
+vendor/lib64/com.qualcomm.mcx.policy.sfl.so
+vendor/lib64/com.qualcomm.qti.cslcustomhw.so
+vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
+vendor/lib64/libGCore4Cell_32E2.so
+vendor/lib64/libSonyIMX471RmscLibrary.so
+vendor/lib64/libaidenoiser.so
+vendor/lib64/libaidenoiserv2.so
+vendor/lib64/libbgstatsmerger.so
+vendor/lib64/libbitmlengine.so
+vendor/lib64/libbitmlenginev2.so
+vendor/lib64/libcamerabuffer.so
+vendor/lib64/libcamxasyncdumpmanager.so
+vendor/lib64/libcamxcommonutils.so
+vendor/lib64/libcamxcoreutils.so
+vendor/lib64/libcamxcsl.so
+vendor/lib64/libcamxcslhw.so
+vendor/lib64/libcamxdumpinforecorder.so
+vendor/lib64/libcamxexternalformatutils.so
+vendor/lib64/libcamxfdengine.so
+vendor/lib64/libcamxhexlpservicebase.so
+vendor/lib64/libcamxhwlfrontend.so
+vendor/lib64/libcamxhwlipedriver.so
+vendor/lib64/libcamxhwnodecontext.so
+vendor/lib64/libcamxhwquery.so
+vendor/lib64/libcamxifestriping.so
+vendor/lib64/libcamximageformatutils.so
+vendor/lib64/libcamxmetadata.so
+vendor/lib64/libcamxncsdatafactory.so
+vendor/lib64/libcamxods.so
+vendor/lib64/libcamxofehwl.so
+vendor/lib64/libcamxofeswl.so
+vendor/lib64/libcamxqsatalgo.so
+vendor/lib64/libcamxsettingsmanager.so
+vendor/lib64/libcamxsocketclientutil.so
+vendor/lib64/libcamxsocketserverutil.so
+vendor/lib64/libcamxswispiqmodule.so
+vendor/lib64/libcamxswlipedriver.so
+vendor/lib64/libcamxswprocessalgo.so
+vendor/lib64/libcamxtintlessalgo.so
+vendor/lib64/libcamxvppservicebase.so
+vendor/lib64/libchicore.so
+vendor/lib64/libchifeature2.so
+vendor/lib64/libchilog.so
+vendor/lib64/libchinodeevautils.so
+vendor/lib64/libchinodehmeutils.so
+vendor/lib64/libcolor-default.so
+vendor/lib64/libcom.qti.chinodeutils.so
+vendor/lib64/libdepthcomputation.so
+vendor/lib64/libeepromcutter.so
+vendor/lib64/libhcsutils.so;MODULE_SUFFIX=_vendor
+vendor/lib64/libhdr10plus.so
+vendor/lib64/libhdr_stub.so
+vendor/lib64/libhme.so
+vendor/lib64/libhwfenceclient.so
+vendor/lib64/libhwliqinterface2.so
+vendor/lib64/libhwlispcffdump.so
+vendor/lib64/libipebpsstriping.so
+vendor/lib64/libipebpsstriping170.so
+vendor/lib64/libipebpsstriping480.so
+vendor/lib64/libisphwsetting.so
+vendor/lib64/libjpege.so
+vendor/lib64/libmctfengine_stub.so
+vendor/lib64/libmfGhostDetection.so
+vendor/lib64/libmfec.so
+vendor/lib64/libmidasserviceintf_aidl.so
+vendor/lib64/libmmcamera_bestats.so
+vendor/lib64/libmmcamera_cac.so
+vendor/lib64/libmmcamera_lscv35.so
+vendor/lib64/libmmcamera_mfnr.so
+vendor/lib64/libmmcamera_mfnr_t4.so
+vendor/lib64/libmmcamera_pdpc.so
+vendor/lib64/libofestriping.so
+vendor/lib64/libois_channel_stub.so
+vendor/lib64/liboischannel.so
+vendor/lib64/libopencv.so
+vendor/lib64/libopencv3a.so
+vendor/lib64/libopencv_core.so
+vendor/lib64/libopencv_imgproc.so
+vendor/lib64/libpnc.so
+vendor/lib64/libproj_qmot_tracker.so
+vendor/lib64/libproj_sot.so
+vendor/lib64/libqfdadapter.so
+vendor/lib64/libqfdservice.so
+vendor/lib64/libqll.so
+vendor/lib64/libqllengine.so
+vendor/lib64/libqlmclient_dyn.so
+vendor/lib64/libqsegnet.so
+vendor/lib64/libqshcamera.so
+vendor/lib64/libqshcamera_sensinghubapi.so
+vendor/lib64/libqshutils.so
+vendor/lib64/libsfeShiftExtrapolation.so
+vendor/lib64/libsgutils2.so
+vendor/lib64/libsiminputgenutil.so
+vendor/lib64/libspectre.so
+vendor/lib64/libswregistrationalgo.so
+vendor/lib64/libtfestriping.so
+vendor/lib64/libubifocus.so
+vendor/lib64/libvideoml.so
+vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
+vendor/lib64/vendor.qti.hardware.camera.offlinecamera-service-impl.so;DISABLE_DEPS
+vendor/firmware/CAMERA_ICP.b00
+vendor/firmware/CAMERA_ICP.b01
+vendor/firmware/CAMERA_ICP.b02
+vendor/firmware/CAMERA_ICP.b03
+vendor/firmware/CAMERA_ICP.b04
+vendor/firmware/CAMERA_ICP.b05
+vendor/firmware/CAMERA_ICP.b06
+vendor/firmware/CAMERA_ICP.b07
+vendor/firmware/CAMERA_ICP.b08
+vendor/firmware/CAMERA_ICP.b09
+vendor/firmware/CAMERA_ICP.b10
+vendor/firmware/CAMERA_ICP.b11
+vendor/firmware/CAMERA_ICP.b12
+vendor/firmware/CAMERA_ICP.b13
+vendor/firmware/CAMERA_ICP.b14
+vendor/firmware/CAMERA_ICP.b15
+vendor/firmware/CAMERA_ICP.b16
+vendor/firmware/CAMERA_ICP.b17
+vendor/firmware/CAMERA_ICP.b18
+vendor/firmware/CAMERA_ICP.b19
+vendor/firmware/CAMERA_ICP.b20
+vendor/firmware/CAMERA_ICP.elf
+vendor/firmware/CAMERA_ICP.mbn
+vendor/firmware/CAMERA_ICP.mdt
+vendor/firmware/CAMERA_ICP_1.b00
+vendor/firmware/CAMERA_ICP_1.b01
+vendor/firmware/CAMERA_ICP_1.b02
+vendor/firmware/CAMERA_ICP_1.b03
+vendor/firmware/CAMERA_ICP_1.b04
+vendor/firmware/CAMERA_ICP_1.b05
+vendor/firmware/CAMERA_ICP_1.b06
+vendor/firmware/CAMERA_ICP_1.b07
+vendor/firmware/CAMERA_ICP_1.b08
+vendor/firmware/CAMERA_ICP_1.b09
+vendor/firmware/CAMERA_ICP_1.b10
+vendor/firmware/CAMERA_ICP_1.b11
+vendor/firmware/CAMERA_ICP_1.b12
+vendor/firmware/CAMERA_ICP_1.b13
+vendor/firmware/CAMERA_ICP_1.b14
+vendor/firmware/CAMERA_ICP_1.b15
+vendor/firmware/CAMERA_ICP_1.b16
+vendor/firmware/CAMERA_ICP_1.b17
+vendor/firmware/CAMERA_ICP_1.b18
+vendor/firmware/CAMERA_ICP_1.b19
+vendor/firmware/CAMERA_ICP_1.b20
+vendor/firmware/CAMERA_ICP_1.elf
+vendor/firmware/CAMERA_ICP_1.mbn
+vendor/firmware/CAMERA_ICP_1.mdt
+vendor/firmware/CAMERA_ICP_170.elf
+odm/firmware/fastchg/batt_dchg_ctrl_config_table.txt
+odm/firmware/fastchg/batt_eis_config.txt
+odm/firmware/fastchg/batt_si_loss_config_table.txt
+odm/firmware/fastchg/bms_heating_config.txt
+odm/firmware/fastchg/charging_thermal_config_default.txt
+odm/firmware/fastchg/smart_chg_config_table.txt
+odm/etc/sdm_display_resolution_extn.xml:vendor/etc/display/sdm_display_resolution_extn.xml;TRYSRCFIRST
+vendor/etc/ltm_config_AA601_P_7_A0020_dsc_cmd_mode_panel.xml
+vendor/etc/ltm_config_AD296_P_3_A0020_dsc_cmd_mode_panel.xml
+vendor/etc/spr_cfg_AA601_P_7_A0020_dsc_cmd_mode_panel.xml
+vendor/etc/spr_cfg_AD296_P_3_A0020_dsc_cmd_mode_panel.xml
+odm/etc/dolby/display/dolby_vision.cfg
+odm/etc/dolby/dolby_vision.cfg
+odm/etc/media_codecs_dolby_vision.xml
+odm/lib64/libdolbyclstc.so
+vendor/lib64/rfs/dsp/libDLDPP_skel.so
+vendor/lib64/rfs/dsp/libHexlpQnnHtp.so
+vendor/lib64/rfs/dsp/libHexlpQnnSystem.so
+vendor/lib64/rfs/dsp/libVppFrcQnnHtp.so
+vendor/lib64/rfs/dsp/libapn_dsp_skel.so
+vendor/lib64/rfs/dsp/libbitml_nsp_81na_skel.so
+vendor/lib64/rfs/dsp/libbitml_nsp_skel.so
+vendor/lib64/rfs/dsp/libdspCV_skel.so
+vendor/lib64/rfs/dsp/libfastcvadsp.so
+vendor/lib64/rfs/dsp/libfastcvdsp_skel.so
+vendor/lib64/rfs/dsp/libhdr_skel.so
+vendor/lib64/rfs/dsp/libmobilenet_dsp_frc.so
+vendor/lib64/rfs/dsp/libmobilenet_dsp_frc_networks.so
+vendor/lib64/rfs/dsp/libnsp_ipc_cdsp_skel.so
+vendor/lib64/rfs/dsp/libnspextensioncopyprovider.so
+vendor/lib64/rfs/dsp/libnspextensionfrcprovider.so
+vendor/lib64/rfs/dsp/libnspextensiongenericqnnprovider.so
+vendor/lib64/rfs/dsp/libnspextensionsuperresolutionprovider.so
+vendor/lib64/rfs/dsp/libqsegnetengine_dsp_skel.so
+vendor/lib64/rfs/dsp/libscveT2T_skel.so
+vendor/lib64/rfs/dsp/libsvDescMatchImpl_dsp_skel.so
+vendor/lib64/rfs/dsp/libsvDescMatch_dsp.so
+vendor/lib64/rfs/dsp/libsvdsp.so
+vendor/lib64/rfs/dsp/libvpp_frc.so
+vendor/lib64/rfs/dsp/libvpp_gfrc_networks.so
+vendor/lib64/rfs/dsp/libvpp_svc_skel.so
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.b19
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
+odm/lib64/libstfaceunlockocl_uff.so;FIX_SONAME
+odm/firmware/uff_face.b00
+odm/firmware/uff_face.b01
+odm/firmware/uff_face.b02
+odm/firmware/uff_face.b03
+odm/firmware/uff_face.b04
+odm/firmware/uff_face.b05
+odm/firmware/uff_face.b06
+odm/firmware/uff_face.b07
+odm/firmware/uff_face.b08
+odm/firmware/uff_face.mdt
+odm/firmware/uff_gx.b00
+odm/firmware/uff_gx.b01
+odm/firmware/uff_gx.b02
+odm/firmware/uff_gx.b03
+odm/firmware/uff_gx.b04
+odm/firmware/uff_gx.b05
+odm/firmware/uff_gx.b06
+odm/firmware/uff_gx.b07
+odm/firmware/uff_gx.b08
+odm/firmware/uff_gx.mdt
+odm/firmware/uff_spi.b00
+odm/firmware/uff_spi.b01
+odm/firmware/uff_spi.b02
+odm/firmware/uff_spi.b03
+odm/firmware/uff_spi.b04
+odm/firmware/uff_spi.b05
+odm/firmware/uff_spi.b06
+odm/firmware/uff_spi.b07
+odm/firmware/uff_spi.b08
+odm/firmware/uff_spi.mdt
+odm/firmware/secure_ta/alipay.b00
+odm/firmware/secure_ta/alipay.b01
+odm/firmware/secure_ta/alipay.b02
+odm/firmware/secure_ta/alipay.b03
+odm/firmware/secure_ta/alipay.b04
+odm/firmware/secure_ta/alipay.b05
+odm/firmware/secure_ta/alipay.b06
+odm/firmware/secure_ta/alipay.b07
+odm/firmware/secure_ta/alipay.b08
+odm/firmware/secure_ta/alipay.mdt
+vendor/firmware/gen80000_aqe.fw
+vendor/firmware/gen80000_gmu.bin
+vendor/firmware/gen80000_sqe.fw
+vendor/firmware/gen80000_zap.mbn
+vendor/firmware/gen80200_aqe.fw
+vendor/firmware/gen80200_gmu.bin
+vendor/firmware/gen80200_sqe.fw
+vendor/firmware/gen80200_zap.mbn
+vendor/firmware/gen80900_aqe.fw
+vendor/firmware/gen80900_gmu.bin
+vendor/firmware/gen80900_sqe.fw
+vendor/firmware/gen80900_zap.mbn
+odm/etc/horae/horae_target.conf
+odm/lib64/aiframe/cdsp/signed/libQnnHtpV81Skel.so;MODULE_SUFFIX=.signed.aiframe
+odm/lib64/aiframe/cdsp/signed/libaiboostubwc_skel.so
+odm/lib64/aiframe/cdsp/signed/libwechatsrubwc_skel.so
+odm/lib64/aiframe/cdsp/unsigned/libQnnHtpV81Skel.so;MODULE_SUFFIX=.unsigned.aiframe
+odm/lib64/aiframe/libQnnHtp.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnHtpPrepare.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnHtpV81Stub.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnSystem.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libaiboost_qnn_external_delegate.so;MODULE_SUFFIX=.aiframe;FIX_SONAME
+odm/lib64/aiframe/libqcom_llm.so
+odm/lib64/aiframe/libtransformer_lite.so
+odm/lib64/libQnnCpu.so
+odm/lib64/libQnnGpu.so
+odm/lib64/libQnnHtp.so
+odm/lib64/libQnnHtpPrepare.so
+odm/lib64/libQnnHtpV81CalculatorStub.so
+odm/lib64/libQnnHtpV81Stub.so
+odm/lib64/libQnnSaver.so
+odm/lib64/libQnnSystem.so
+odm/lib64/libaiboost.so
+odm/lib64/libaiboost_llm.so
+odm/lib64/libaiboost_qnn_external_delegate_te.so;FIX_SONAME
+odm/lib64/libaiboost_qnn_sr.so
+odm/lib64/libaiboost_sr.so
+odm/lib64/libaiboost_te.so;FIX_SONAME
+odm/lib64/libaiboost_ubwc.so
+odm/etc/nfc/libnfc-mtp-SN220.conf_24831:odm/etc/libnfc-mtp-SN220.conf_24831
+# libnfc-nxp.conf is what the LineageOS NXP HAL reads (default_nxp_config_path in
+# phNxpNciHal_IoctlOperations.cc). Nothing shipped that path on either side because the
+# stock ROM uses OPPO own HAL; lafa libnfc-mtp-SN220.conf_24624 is that file content.
+# NOTE: content matters. The stock libnfc-mtp-SN220.conf_24624 makes the HAL fail to
+# open (MinOpen failed); LineageOS ships a matching sample that works, so this file is
+# authored in-tree instead (see vendor/realme/lafa/proprietary/vendor/etc/libnfc-nxp.conf
+# and the device.mk NFC note). Kept out of the blob list on purpose.
+odm/etc/nfc/libnfc-mtp-SN220.conf_24624:odm/etc/libnfc-mtp-SN220.conf_24624
+odm/etc/nfc/libnfc-mtp-SN220.conf_24776:odm/etc/libnfc-mtp-SN220.conf_24776
+odm/etc/nfc/libnfc-mtp-SN220.conf_24863:odm/etc/libnfc-mtp-SN220.conf_24863
+odm/etc/nfc/libnfc-nci.conf_24624:vendor/etc/libnfc-nci.conf
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
+odm/etc/sensor/config/json_list
+odm/etc/sensor/config/kaanapali_mtp_ak09919.json
+odm/etc/sensor/config/kaanapali_mtp_alsps.json
+odm/etc/sensor/config/kaanapali_mtp_cct_rear.json
+odm/etc/sensor/config/kaanapali_mtp_freefall.json
+odm/etc/sensor/config/kaanapali_mtp_oplus_lay.json
+odm/etc/sensor/config/kaanapali_mtp_oplus_measurement.json
+odm/etc/sensor/config/kaanapali_mtp_oplus_shaking.json
+odm/etc/sensor/config/kaanapali_mtp_oplus_smart_prox.json
+odm/etc/sensor/config/kaanapali_mtp_pocket.json
+odm/etc/sensor/config/lux_aod.json
+odm/etc/sensor/config/oplus_car_motion.json
+odm/etc/sensor/config/oplus_gyro_cal_0.json
+odm/etc/sensor/config/oplus_mag_fusion_v2.json
+odm/etc/sensor/config/oplus_pedometer_minute.json
+odm/etc/sensor/config/oplus_rotation_detect.json
+odm/etc/sensor/config/oplus_rotv.json
+odm/etc/sensor/sensor_config.json
+odm/firmware/ufs/SAMSUNG-KLUGG8NHKB-F0H1.bin
+odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
+odm/firmware/ufs/ufs_version_config.xml
+vendor/firmware/vpu33_4v.mbn
+vendor/firmware/vpu33_4v_unsigned.mbn
+vendor/firmware/vpu35_4v.mbn
+vendor/firmware/vpu35_4v_unsigned.mbn
+vendor/firmware/vpu40_1v.mbn
+vendor/firmware/vpu40_1v_unsigned.mbn
+vendor/firmware/vpu40_2v.mbn
+vendor/firmware/vpu40_2v_unsigned.mbn
+vendor/firmware/vpu40_2v_v1.mbn
+vendor/firmware/vpu40_2v_v1_unsigned.mbn
+odm/etc/wifi/peach/bdwlan.elf
+odm/etc/wifi/peach/regdb.bin
+odm/etc/wifi/peach/regdb_version
+odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+
+## ---------------------------------------------------------------------------
+## Entries present in the OnePlus 15 list but NOT in lafa's firmware.
+## Kept here commented out as documentation of the device delta; re-enable only
+## after verifying the file actually exists in RMX5200 firmware.
+## ---------------------------------------------------------------------------
+# odm/etc/audio/dcunet_nbf.onnx.mnn    (not on lafa)
+# odm/etc/audio/oprec_nn_ve.mnn    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_camback_calibration.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_camback_concert_calibration.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_camfront_calibration.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID10_HE_App1.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID11_HE_Fast.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID12_HE_VR.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID13_HE_USB.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID14_HE_USBApp1.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID15_HE_BT.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID16_HE_BTApp1.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID17_Concert.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID18_Breeno.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID19_LiveStreaming.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID1_MIC_normal.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID2_MIC_App1.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID3_CamFront.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID4_CamBack.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID5_MIC_Conference.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID6_VR.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID7_Interview.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID8_Fast.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID99_Bypass.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_ID9_HE.bin    (not on lafa)
+# odm/etc/audio/oprec_audrec_params/oprec_record_calibration.bin    (not on lafa)
+# odm/etc/camera/AIAE_Models/AIAEVideoModelMain.bin    (not on lafa)
+# odm/etc/camera/AIAE_Models/AIAEVideoModelTele.bin    (not on lafa)
+# odm/etc/camera/AIAE_Models/AIAEVideoModelWide.bin    (not on lafa)
+# odm/etc/camera/aigc/aigc_models/blurDet_sm8850.bin    (not on lafa)
+# odm/etc/camera/aigc/aigc_models/faceSeg_sm8850.bin    (not on lafa)
+# odm/etc/camera/aigc/aigc_models/gfpgan1024_sm8850.bin    (not on lafa)
+# odm/etc/camera/basictone/lmt/SCLut0    (not on lafa)
+# odm/etc/camera/basictone/lmt/SCLut1    (not on lafa)
+# odm/etc/camera/basictone/lmt/SCLut2    (not on lafa)
+# odm/etc/camera/basictone/lmt/SCLut3    (not on lafa)
+# odm/etc/camera/basictone/lmt/SCLut4    (not on lafa)
+# odm/etc/camera/basictone/lmt/SCLut5    (not on lafa)
+# odm/etc/camera/basictone/lmt/SCLut6    (not on lafa)
+# odm/etc/camera/basictone/lmt/SCLut7    (not on lafa)
+# odm/etc/camera/basictone/lmt/SCLut8    (not on lafa)
+# odm/etc/camera/basictone/setting/FromXml    (not on lafa)
+# odm/etc/camera/basictone/setting/SimTool.ini    (not on lafa)
+# odm/etc/camera/cfr_bin/CFR_infinitimain.bin    (not on lafa)
+# odm/etc/camera/cfr_bin/CFR_infinititele.bin    (not on lafa)
+# odm/etc/camera/cfr_bin/CFR_infinitiultrawide.bin    (not on lafa)
+# odm/etc/camera/config/infinitifront    (not on lafa)
+# odm/etc/camera/config/infinitimain    (not on lafa)
+# odm/etc/camera/config/infinititele    (not on lafa)
+# odm/etc/camera/config/infinitiultrawide    (not on lafa)
+# odm/etc/camera/dng/ColorMatrix1_infinitimain.txt    (not on lafa)
+# odm/etc/camera/dng/ColorMatrix1_infinititele.txt    (not on lafa)
+# odm/etc/camera/dng/ColorMatrix1_infinitiultrawide.txt    (not on lafa)
+# odm/etc/camera/dng/ColorMatrix2_infinitimain.txt    (not on lafa)
+# odm/etc/camera/dng/ColorMatrix2_infinititele.txt    (not on lafa)
+# odm/etc/camera/dng/ColorMatrix2_infinitiultrawide.txt    (not on lafa)
+# odm/etc/camera/dng/D28HUESATMap_infinitimain.txt    (not on lafa)
+# odm/etc/camera/dng/D28HUESATMap_infinititele.txt    (not on lafa)
+# odm/etc/camera/dng/D28HUESATMap_infinitiultrawide.txt    (not on lafa)
+# odm/etc/camera/dng/D65HUESATMap_infinitimain.txt    (not on lafa)
+# odm/etc/camera/dng/D65HUESATMap_infinititele.txt    (not on lafa)
+# odm/etc/camera/dng/D65HUESATMap_infinitiultrawide.txt    (not on lafa)
+# odm/etc/camera/dng/ToneCurve_infinitimain.txt    (not on lafa)
+# odm/etc/camera/dng/ToneCurve_infinititele.txt    (not on lafa)
+# odm/etc/camera/dng/ToneCurve_infinitiultrawide.txt    (not on lafa)
+# odm/etc/camera/filters_lut/bt2020_hlg_to_p3_srgb_3dlut_light.cube    (not on lafa)
+# odm/etc/camera/filters_lut/bt709_srgb_to_bt2020_hlg_3dlut_light.cube    (not on lafa)
+# odm/etc/camera/filters_lut/bt709_srgb_to_p3_srgb_3dlut_light.cube    (not on lafa)
+# odm/etc/camera/filters_lut/p3_srgb_to_bt2020_hlg_3dlut_light.cube    (not on lafa)
+# odm/etc/camera/filters_lut/p3_to_bt2020_3dlut.bin    (not on lafa)
+# odm/etc/camera/hybridraw_models/tele_binning_ev0_sport.bin    (not on lafa)
+# odm/etc/camera/hybridraw_models/tele_binning_evmm.bin    (not on lafa)
+# odm/etc/camera/hybridraw_models/tele_quadbayer_evm.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_0.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_1.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_0.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_1.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_master.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_normal.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_sdr.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_sdr_0.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/blackandwhite_HC_sdr_1.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/mono_0.cube.rgb.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/mono_1.cube.rgb.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/portra400_hdr_master_a_1.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/portra400_hdr_master_d_1.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/portra400_hdr_normal_a_1.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/portra400_hdr_normal_d_1.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/portra400_master.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/portra400_normal.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/portra400_sdr_gen_a_1.bin    (not on lafa)
+# odm/etc/camera/meishe_lut/portra400_sdr_gen_d_1.bin    (not on lafa)
+# odm/etc/camera/oplus_seg_sdk/seg_cl_binary_SM8850.bin    (not on lafa)
+# odm/etc/camera/oplus_seg_sdk/segmode.json    (not on lafa)
+# odm/etc/camera/gamma_masterMode_quick_sdr_conf.json    (not on lafa)
+# odm/etc/camera/gamma_video_hdr_conf.json    (not on lafa)
+# odm/etc/camera/gamma_video_sdr_conf.json    (not on lafa)
+# odm/etc/init/init.camera_upate.rc    (not on lafa)
+# odm/lib64/camera/AIAWB_q.odnn    (not on lafa)
+# odm/lib64/camera/awb_parameter_infinitifront.bin    (not on lafa)
+# odm/lib64/camera/awb_parameter_infinitimain.bin    (not on lafa)
+# odm/lib64/camera/awb_parameter_infinititele.bin    (not on lafa)
+# odm/lib64/camera/awb_parameter_infinitiultrawide.bin    (not on lafa)
+# odm/lib64/camera/com.qti.sensor.infinitifront.so    (not on lafa)
+# odm/lib64/camera/com.qti.sensor.infinitimain.so    (not on lafa)
+# odm/lib64/camera/com.qti.sensor.infinititele.so    (not on lafa)
+# odm/lib64/camera/com.qti.sensor.infinitiultrawide.so    (not on lafa)
+# odm/lib64/camera/com.qti.sensormodule.infinitifront.bin    (not on lafa)
+# odm/lib64/camera/com.qti.sensormodule.infinitimain.bin    (not on lafa)
+# odm/lib64/camera/com.qti.sensormodule.infinititele.bin    (not on lafa)
+# odm/lib64/camera/com.qti.sensormodule.infinititele2.bin    (not on lafa)
+# odm/lib64/camera/com.qti.sensormodule.infinitiultrawide.bin    (not on lafa)
+# odm/lib64/camera/com.qti.tuned.inffront.bin    (not on lafa)
+# odm/lib64/camera/com.qti.tuned.infmain.bin    (not on lafa)
+# odm/lib64/camera/com.qti.tuned.inftele.bin    (not on lafa)
+# odm/lib64/camera/com.qti.tuned.infultrawide.bin    (not on lafa)
+# odm/lib64/camera/libafCustomParam_Cam4.bin    (not on lafa)
+# odm/lib64/libAIMotion.so    (not on lafa)
+# odm/lib64/libDarkColor.so    (not on lafa)
+# odm/lib64/libSpecRecon.so    (not on lafa)
+# odm/lib64/libarcsoft_dualcam_bokeh_api.so    (not on lafa)
+# odm/lib64/libarcsoft_dualcam_bokeh_image.so    (not on lafa)
+# odm/lib64/libarcsoft_dualcam_bokeh_preview.so    (not on lafa)
+# odm/firmware/fastchg/24831/charging_hyper_mode_config.txt    (not on lafa)
+# odm/firmware/fastchg/24863/charging_hyper_mode_config.txt    (not on lafa)
+# my_product/vendor/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml:vendor/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml    (not on lafa)
+# my_product/vendor/etc/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml:vendor/etc/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_Center_P3.txt    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_Center_sRGB.txt    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_Enhance_P3.txt    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_Enhance_sRGB.txt    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_LTM_P3.txt    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_LTM_sRGB.txt    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_Stand_P3.txt    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_Stand_sRGB.txt    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_StandardMode_P3.txt    (not on lafa)
+# odm/etc/PanelChaplin/3D-Lut_StandardMode_sRGB.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_1_100nit.odf    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_1_2nit.odf    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_1_max.odf    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_2_100nit.odf    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_2_2nit.odf    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_2_max.odf    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_Cinema_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_EP3_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_EP3_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_EP3_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_EsRGB_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_HS    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_LsRGB_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_Nature_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_Nature_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_Nature_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_Vivid_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_Cinema_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_Cinema_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_Cinema_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_EP3_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_EP3_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_EP3_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_EsRGB_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_EsRGB_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_EsRGB_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_HS    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_LsRGB_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_LsRGB_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_LsRGB_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_Nature_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_Nature_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_Nature_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_Vivid_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_Vivid_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AA601_P_7_A0020_dsc_cmd_mode_panel_game_color_enhance_Vivid_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_1_100nit.odf    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_1_2nit.odf    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_1_max.odf    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_2_100nit.odf    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_2_2nit.odf    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_2_max.odf    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_Cinema_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_EP3_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_EP3_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_EP3_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_EsRGB_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_HS    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_LsRGB_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_Nature_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_Nature_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_Nature_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_Vivid_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_Cinema_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_Cinema_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_Cinema_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_EP3_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_EP3_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_EP3_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_EsRGB_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_EsRGB_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_EsRGB_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_HS    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_LsRGB_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_LsRGB_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_LsRGB_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_Nature_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_Nature_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_Nature_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_Vivid_100nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_Vivid_2nits_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AD296_P_3_A0020_dsc_cmd_mode_panel_game_color_enhance_Vivid_pGC.txt    (not on lafa)
+# odm/etc/PanelChaplin/AdjustValue    (not on lafa)
+# odm/etc/PanelChaplin/Dark_Eye_Protect_Cinema.txt    (not on lafa)
+# odm/etc/PanelChaplin/Dark_Eye_Protect_EP3.txt    (not on lafa)
+# odm/etc/PanelChaplin/Dark_Eye_Protect_EsRGB.txt    (not on lafa)
+# odm/etc/PanelChaplin/Dark_Eye_Protect_LsRGB.txt    (not on lafa)
+# odm/etc/PanelChaplin/Dark_Eye_Protect_Nature.txt    (not on lafa)
+# odm/etc/PanelChaplin/Dark_Eye_Protect_Vivid.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_COMP3.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_ColorInvert_Fliter.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_FPS.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_FPS_Fliter.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_HighDynamicRange_Fliter.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_MOBA.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_MOBA_Fliter.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_NightVision_Fliter.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_OTOME.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_OTOME_Fliter.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_OldMovie_Fliter.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_RPG.txt    (not on lafa)
+# odm/etc/PanelChaplin/Game_Vivid_Fliter.txt    (not on lafa)
+# odm/etc/PanelChaplin/LUTPublic_colorful_P3_E29.txt    (not on lafa)
+# odm/etc/PanelChaplin/LUTPublic_colorful_sRGB_E29.txt    (not on lafa)
+# odm/etc/PanelChaplin/LUTPublic_natural_P3_E29.txt    (not on lafa)
+# odm/etc/PanelChaplin/LUTPublic_natural_sRGB_E29.txt    (not on lafa)
+# odm/etc/PanelChaplin/LUTPublic_professional_P3_E29.txt    (not on lafa)
+# odm/etc/PanelChaplin/LUTPublic_professional_sRGB_E29.txt    (not on lafa)
+# odm/etc/PanelChaplin/Lut3D_311    (not on lafa)
+# odm/etc/PanelChaplin/Lut3D_312    (not on lafa)
+# odm/etc/PanelChaplin/RGBMatrix_public_P3.txt    (not on lafa)
+# odm/etc/PanelChaplin/RGBMatrix_public_sRGB.txt    (not on lafa)
+# odm/etc/PanelChaplin/panelchaplin    (not on lafa)
+# odm/etc/display/qdcm_calib_data_AA601_P_7_A0020_dsc_cmd_mode_panel.json    (not on lafa)
+# odm/etc/display/qdcm_calib_data_AD296_P_3_A0020_dsc_cmd_mode_panel.json    (not on lafa)
+# my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml    (not on lafa)
+# my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED    (not on lafa)
+# odm/lib64/AIMotion/cdsp/libQnnHtpV81Skel.so;MODULE_SUFFIX=.AIMotion    (not on lafa)
+# odm/lib64/AIMotion/libQnnHtp.so;MODULE_SUFFIX=.AIMotion    (not on lafa)
+# odm/lib64/AIMotion/libQnnHtpV81Stub.so;MODULE_SUFFIX=.AIMotion    (not on lafa)
+# odm/lib64/AIMotion/libQnnSystem.so;MODULE_SUFFIX=.AIMotion    (not on lafa)
+# my_product/etc/fusionlight_profile/fusionlight_Main_1_A.json:odm/etc/fusionlight_profile/fusionlight_Main_1_A.json    (not on lafa)
+# my_product/etc/fusionlight_profile/fusionlight_Main_2_A.json:odm/etc/fusionlight_profile/fusionlight_Main_2_A.json    (not on lafa)
+# odm/etc/sensor/config/infiniti_qrd_ois_system.json    (not on lafa)
+# odm/etc/sensor/config/kaanapali_mtp_alsps_hw_tcs3760.json    (not on lafa)
+# odm/etc/sensor/config/kaanapali_mtp_bmp5_0.json    (not on lafa)
+# odm/etc/sensor/config/kaanapali_mtp_lsm6dsv_0.json    (not on lafa)
+# odm/etc/sensor/config/kaanapali_mtp_oplus_sleep.json    (not on lafa)
+# odm/etc/sensor/config/oplus_car_scene.json    (not on lafa)
+# odm/etc/sensor/config/oplus_flight_scene.json    (not on lafa)
+# odm/firmware/tp/infiniti/GloveDetect.tflite    (not on lafa)
+# odm/firmware/tp/infiniti/libafe_s3910.so    (not on lafa)
+# odm/firmware/tp/infiniti/libafepanel_s3910_boe.so    (not on lafa)
+# odm/firmware/tp/infiniti/libafepanel_s3910_tianma.so    (not on lafa)
+# odm/firmware/tp/infiniti/libpostalgo.so    (not on lafa)
+# odm/firmware/tp/infiniti/libpostalgo_symbol.so    (not on lafa)
+# odm/firmware/tp/infiniti/libprealgo.so    (not on lafa)
+# odm/firmware/tp/infiniti/libprealgo_symbol.so    (not on lafa)
+# odm/firmware/tp/infiniti/main_synaptics-s3910_boe_aging_limit.csv    (not on lafa)
+# odm/firmware/tp/infiniti/main_synaptics-s3910_boe_limit.csv    (not on lafa)
+# odm/firmware/tp/infiniti/main_synaptics-s3910_tianma_aging_limit.csv    (not on lafa)
+# odm/firmware/tp/infiniti/main_synaptics-s3910_tianma_limit.csv    (not on lafa)
+# odm/firmware/tp/infiniti/model.tflite    (not on lafa)
+# odm/firmware/tp/infiniti/vnd_algo_config_main.xml    (not on lafa)
+# odm/firmware/tp/infiniti/vnd_algo_config_main_second.xml    (not on lafa)
+# odm/firmware/tp/infiniti/vnd_custom_config_main.xml    (not on lafa)
+# odm/firmware/tp/infiniti/vnd_edge_touch_config_main.xml    (not on lafa)
+# odm/firmware/tp/infiniti/vnd_touch_project_config.xml    (not on lafa)
+# odm/firmware/tp/infiniti/vnd_touch_scene_config_main.xml    (not on lafa)
+# odm/firmware/tp/infiniti/vnd_tp_fw_main.bin    (not on lafa)
+# odm/firmware/tp/infiniti/vnd_tp_fw_main_second.bin    (not on lafa)
+# odm/firmware/ufs/SAMSUNG-KLUEG4RHHF-F0G1.bin    (not on lafa)
+# odm/firmware/ufs/SAMSUNG-KLUFG4NHHB-F0G1.bin    (not on lafa)
+# odm/firmware/ufs/SAMSUNG-KLUGG8NHHB-F0G1.bin    (not on lafa)
+# odm/firmware/ufs/SKhynix-HN8T271EJKX152.bin    (not on lafa)
+# odm/etc/wifi/peach/bdwlan.b0a    (not on lafa)
+# odm/etc/wifi/peach/bdwlan.b0e    (not on lafa)
+# odm/etc/wifi/peach/bdwlan.b0i    (not on lafa)
+
+
+## ---------------------------------------------------------------------------
+## lafa-specific blobs (not present in the OnePlus 15 list at all)
+## ---------------------------------------------------------------------------
+
+# Touch firmware. The whole directory was missing, and without it touchDaemon
+# cannot come up at all:
+#   E OplusTouchDaemon: Failed to get lib path
+#         /odm/firmware/tp/24624/LIB_S3910_BOE_HBP.so
+#   E OplusTouchDaemon: Failed to load the operation functions
+#   E OplusTouchDaemon: [main][188]: touchDaemon EXIT, ret_syna_hbp:-1
+# It exits on the spot, so everything it carries dies with it - double-tap to
+# wake included (that one additionally needs the key layout, see
+# configs/keylayout/touchpanel.kl wired up in device.mk). The (not on lafa)
+# listing above covers infiniti's copies; these are lafa's own.
+# NOTE: LIB_S3910_BOE_HBP.so is asked for first as tp_lib_path_orig and is NOT
+# in either ROM - the _TS_HAL name is the one that exists, and its failure line
+# is a fallback probe, not the fault.
+odm/firmware/tp/24624/FW_S3910_BOE.img
+odm/firmware/tp/24624/FW_S3910_BOE_FAE.img
+odm/firmware/tp/24624/FW_S3910_BOE_HBP.img
+odm/firmware/tp/24624/FW_S3910_BOE_HBP_FAE.img
+odm/firmware/tp/24624/FW_S3910_TIANMA.img
+odm/firmware/tp/24624/FW_S3910_TIANMA_HBP.img
+odm/firmware/tp/24624/GloveDetect.tflite
+odm/firmware/tp/24624/LIB_S3910_BOE_HBP_TS_ALGO.so
+odm/firmware/tp/24624/LIB_S3910_BOE_HBP_TS_ALGO_HWASAN.so
+odm/firmware/tp/24624/LIB_S3910_BOE_HBP_TS_HAL.so
+odm/firmware/tp/24624/LIB_S3910_TIANMA_HBP_TS_ALGO.so
+odm/firmware/tp/24624/LIB_S3910_TIANMA_HBP_TS_ALGO_HWASAN.so
+odm/firmware/tp/24624/LIB_S3910_TIANMA_HBP_TS_HAL.so
+odm/firmware/tp/24624/LIMIT_S3910_BOE.img
+odm/firmware/tp/24624/LIMIT_S3910_BOE_AGING.img
+odm/firmware/tp/24624/LIMIT_S3910_BOE_HBP.img
+odm/firmware/tp/24624/LIMIT_S3910_BOE_HBP_AGING.img
+odm/firmware/tp/24624/LIMIT_S3910_TIANMA.img
+odm/firmware/tp/24624/LIMIT_S3910_TIANMA_AGING.img
+odm/firmware/tp/24624/LIMIT_S3910_TIANMA_HBP.img
+odm/firmware/tp/24624/LIMIT_S3910_TIANMA_HBP_AGING.img
+odm/firmware/tp/24624/libIfp.so
+odm/firmware/tp/24624/libaifilm.so
+odm/firmware/tp/24624/model.tflite
+odm/firmware/tp/24624/sys_edge_touch_config.xml
+odm/firmware/tp/24624/sys_touch_algo_feature_config.xml
+odm/firmware/tp/24624/sys_touch_function_feature_config.xml
+odm/firmware/tp/24624/sys_touch_scene_config.xml
+# AAC richtap / awinic vibrator
+# Both of these are ALSO defined as source modules by LineageOS:
+#   libaacvibrator          hardware/oplus/aidl/vibrator/richtap/Android.bp   (empty stub, soc_specific)
+#   liboplusvibratoreffect  hardware/oplus/aidl/vibrator/qti/effect/Android.bp (soc/vendor)
+# extract-utils derives the partition from the path (odm -> device_specific, vendor ->
+# soc_specific), so shipping them from odm/ produced "partition is different:
+# vendor(libaacvibrator) != odm(prebuilt_libaacvibrator)" and killed soong bootstrap.
+# Installing them under vendor/ instead makes the partitions match so the prebuilt
+# (prefer: true) overrides the source module - which is the intent, since the stub is
+# empty and the emulated AAC backend has to come from the device.
+odm/lib64/libaacvibrator.so:vendor/lib64/libaacvibrator.so
+odm/lib/vendor.aac.hardware.richtap.vibrator-V2-ndk.so
+odm/lib64/vendor.aac.hardware.richtap.vibrator-V2-ndk.so
+odm/lib64/liboplusvibratoreffect.so:vendor/lib64/liboplusvibratoreffect.so
+odm/lib64/vendor.oplus.hardware.oplusvibrator-V2-ndk.so
+odm/lib64/vendor.oplus.hardware.vibrator-V1-ndk.so
+odm/etc/vibrator/vibrator_effect.json
+# The stock HAL is the one that actually works. LineageOS' richtap HAL implements
+# only the AAC backend and dies in aac_vibra_init():
+#   AacRichTapConfig: can not open file /odm/etc/aac_richtap.config
+#   AacRichTapPerformer: init device: 0 failed!
+#   android.hardware.vibrator.service.oplus: AAC init failed: -1
+# lafa's actuator is driven through the Si livetap backend instead, and the stock
+# ROM never ships that AAC config file either (verified: no aac_richtap.config
+# anywhere under RMX5200_16.0.10.501). The stock HAL takes the actuator parameters
+# from si_livetap_conf/ and the prebaked effects from etc/vibrator/<type>/, and its
+# own log confirms it comes all the way up:
+#   aidl_vibrator: mEffectMngr loadEffect vibrator type = 816
+#   aidl_vibrator: loadEffect load def effect. / load soft effect.
+#   aidl_vibrator: Vibrator driver loaded success
+# Both manifests declare the same instance (android.hardware.vibrator
+# IVibrator/default), so LineageOS' richtap HAL is no longer built at all - see the
+# Vibrator note in device.mk - which is what makes shipping this one legal.
+# The rc only starts a service binary that is shipped now.
+odm/bin/hw/vendor.oplus.hardware.vibrator-service
+odm/etc/init/vibrator-default.rc
+odm/etc/vintf/manifest/vibrator-default.xml
+odm/lib64/libsivibrator.so
+odm/etc/si_livetap_conf/lra_model_0.conf
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/WAVE_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_0.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_1.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_2.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_3.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_4.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_5.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_6.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_7.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_8.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F0/wave_he_short_f0_130_9.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/WAVE_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_0.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_1.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_2.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_3.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_4.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_5.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_6.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_7.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_8.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F1/wave_he_short_f0_130_9.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/WAVE_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_0.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_1.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_2.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_3.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_4.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_5.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_6.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_7.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_8.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F2/wave_he_short_f0_130_9.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/WAVE_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_0.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_1.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_2.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_3.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_4.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_5.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_6.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_7.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_8.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F3/wave_he_short_f0_130_9.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/WAVE_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_0.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_1.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_2.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_3.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_4.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_5.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_6.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_7.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_8.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F4/wave_he_short_f0_130_9.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_0/F_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_1/F0/WAVE_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_1/F0/wave_he_short_f0_130_0.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_1/F0/wave_he_short_f0_130_1.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_1/F0/wave_he_short_f0_130_2.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_1/F0/wave_he_short_f0_130_3.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_1/F0/wave_he_short_f0_130_4.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_1/F_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_2/F0/WAVE_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_2/F0/wave_he_short_f0_130_0.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_2/F0/wave_he_short_f0_130_1.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_2/F0/wave_he_short_f0_130_2.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_2/F0/wave_he_short_f0_130_3.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_2/F_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_3/F0/WAVE_MMAP.txt
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_3/F0/wave_he_short_f0_130_0.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_3/F0/wave_he_short_f0_130_1.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_3/F0/wave_he_short_f0_130_2.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_3/F0/wave_he_short_f0_130_3.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_3/F0/wave_he_short_f0_130_4.bin
+odm/etc/si_livetap_conf/wave_lib/wave_lib_eq_3/F_MMAP.txt
+odm/etc/vibrator/816/def/effect_0.bin
+odm/etc/vibrator/816/def/effect_1.bin
+odm/etc/vibrator/816/def/effect_10.bin
+odm/etc/vibrator/816/def/effect_100.bin
+odm/etc/vibrator/816/def/effect_101.bin
+odm/etc/vibrator/816/def/effect_102.bin
+odm/etc/vibrator/816/def/effect_103.bin
+odm/etc/vibrator/816/def/effect_104.bin
+odm/etc/vibrator/816/def/effect_105.bin
+odm/etc/vibrator/816/def/effect_106.bin
+odm/etc/vibrator/816/def/effect_107.bin
+odm/etc/vibrator/816/def/effect_108.bin
+odm/etc/vibrator/816/def/effect_109.bin
+odm/etc/vibrator/816/def/effect_11.bin
+odm/etc/vibrator/816/def/effect_110.bin
+odm/etc/vibrator/816/def/effect_111.bin
+odm/etc/vibrator/816/def/effect_112.bin
+odm/etc/vibrator/816/def/effect_118.bin
+odm/etc/vibrator/816/def/effect_12.bin
+odm/etc/vibrator/816/def/effect_122.bin
+odm/etc/vibrator/816/def/effect_170.bin
+odm/etc/vibrator/816/def/effect_2.bin
+odm/etc/vibrator/816/def/effect_3.bin
+odm/etc/vibrator/816/def/effect_302.bin
+odm/etc/vibrator/816/def/effect_303.bin
+odm/etc/vibrator/816/def/effect_304.bin
+odm/etc/vibrator/816/def/effect_305.bin
+odm/etc/vibrator/816/def/effect_308.bin
+odm/etc/vibrator/816/def/effect_309.bin
+odm/etc/vibrator/816/def/effect_310.bin
+odm/etc/vibrator/816/def/effect_315.bin
+odm/etc/vibrator/816/def/effect_316.bin
+odm/etc/vibrator/816/def/effect_318.bin
+odm/etc/vibrator/816/def/effect_320.bin
+odm/etc/vibrator/816/def/effect_321.bin
+odm/etc/vibrator/816/def/effect_322.bin
+odm/etc/vibrator/816/def/effect_323.bin
+odm/etc/vibrator/816/def/effect_324.bin
+odm/etc/vibrator/816/def/effect_325.bin
+odm/etc/vibrator/816/def/effect_326.bin
+odm/etc/vibrator/816/def/effect_327.bin
+odm/etc/vibrator/816/def/effect_328.bin
+odm/etc/vibrator/816/def/effect_329.bin
+odm/etc/vibrator/816/def/effect_330.bin
+odm/etc/vibrator/816/def/effect_331.bin
+odm/etc/vibrator/816/def/effect_332.bin
+odm/etc/vibrator/816/def/effect_333.bin
+odm/etc/vibrator/816/def/effect_334.bin
+odm/etc/vibrator/816/def/effect_335.bin
+odm/etc/vibrator/816/def/effect_336.bin
+odm/etc/vibrator/816/def/effect_337.bin
+odm/etc/vibrator/816/def/effect_338.bin
+odm/etc/vibrator/816/def/effect_339.bin
+odm/etc/vibrator/816/def/effect_340.bin
+odm/etc/vibrator/816/def/effect_341.bin
+odm/etc/vibrator/816/def/effect_342.bin
+odm/etc/vibrator/816/def/effect_343.bin
+odm/etc/vibrator/816/def/effect_344.bin
+odm/etc/vibrator/816/def/effect_345.bin
+odm/etc/vibrator/816/def/effect_346.bin
+odm/etc/vibrator/816/def/effect_362.bin
+odm/etc/vibrator/816/def/effect_363.bin
+odm/etc/vibrator/816/def/effect_364.bin
+odm/etc/vibrator/816/def/effect_365.bin
+odm/etc/vibrator/816/def/effect_366.bin
+odm/etc/vibrator/816/def/effect_367.bin
+odm/etc/vibrator/816/def/effect_368.bin
+odm/etc/vibrator/816/def/effect_369.bin
+odm/etc/vibrator/816/def/effect_370.bin
+odm/etc/vibrator/816/def/effect_391.bin
+odm/etc/vibrator/816/def/effect_392.bin
+odm/etc/vibrator/816/def/effect_393.bin
+odm/etc/vibrator/816/def/effect_394.bin
+odm/etc/vibrator/816/def/effect_395.bin
+odm/etc/vibrator/816/def/effect_396.bin
+odm/etc/vibrator/816/def/effect_397.bin
+odm/etc/vibrator/816/def/effect_398.bin
+odm/etc/vibrator/816/def/effect_399.bin
+odm/etc/vibrator/816/def/effect_4.bin
+odm/etc/vibrator/816/def/effect_400.bin
+odm/etc/vibrator/816/def/effect_401.bin
+odm/etc/vibrator/816/def/effect_402.bin
+odm/etc/vibrator/816/def/effect_403.bin
+odm/etc/vibrator/816/def/effect_404.bin
+odm/etc/vibrator/816/def/effect_405.bin
+odm/etc/vibrator/816/def/effect_406.bin
+odm/etc/vibrator/816/def/effect_407.bin
+odm/etc/vibrator/816/def/effect_408.bin
+odm/etc/vibrator/816/def/effect_409.bin
+odm/etc/vibrator/816/def/effect_41.bin
+odm/etc/vibrator/816/def/effect_410.bin
+odm/etc/vibrator/816/def/effect_411.bin
+odm/etc/vibrator/816/def/effect_412.bin
+odm/etc/vibrator/816/def/effect_413.bin
+odm/etc/vibrator/816/def/effect_414.bin
+odm/etc/vibrator/816/def/effect_415.bin
+odm/etc/vibrator/816/def/effect_416.bin
+odm/etc/vibrator/816/def/effect_417.bin
+odm/etc/vibrator/816/def/effect_418.bin
+odm/etc/vibrator/816/def/effect_419.bin
+odm/etc/vibrator/816/def/effect_42.bin
+odm/etc/vibrator/816/def/effect_420.bin
+odm/etc/vibrator/816/def/effect_421.bin
+odm/etc/vibrator/816/def/effect_422.bin
+odm/etc/vibrator/816/def/effect_423.bin
+odm/etc/vibrator/816/def/effect_424.bin
+odm/etc/vibrator/816/def/effect_425.bin
+odm/etc/vibrator/816/def/effect_426.bin
+odm/etc/vibrator/816/def/effect_427.bin
+odm/etc/vibrator/816/def/effect_428.bin
+odm/etc/vibrator/816/def/effect_429.bin
+odm/etc/vibrator/816/def/effect_43.bin
+odm/etc/vibrator/816/def/effect_430.bin
+odm/etc/vibrator/816/def/effect_431.bin
+odm/etc/vibrator/816/def/effect_432.bin
+odm/etc/vibrator/816/def/effect_433.bin
+odm/etc/vibrator/816/def/effect_434.bin
+odm/etc/vibrator/816/def/effect_435.bin
+odm/etc/vibrator/816/def/effect_436.bin
+odm/etc/vibrator/816/def/effect_437.bin
+odm/etc/vibrator/816/def/effect_438.bin
+odm/etc/vibrator/816/def/effect_439.bin
+odm/etc/vibrator/816/def/effect_44.bin
+odm/etc/vibrator/816/def/effect_440.bin
+odm/etc/vibrator/816/def/effect_441.bin
+odm/etc/vibrator/816/def/effect_442.bin
+odm/etc/vibrator/816/def/effect_443.bin
+odm/etc/vibrator/816/def/effect_45.bin
+odm/etc/vibrator/816/def/effect_46.bin
+odm/etc/vibrator/816/def/effect_47.bin
+odm/etc/vibrator/816/def/effect_5.bin
+odm/etc/vibrator/816/def/effect_500.bin
+odm/etc/vibrator/816/def/effect_501.bin
+odm/etc/vibrator/816/def/effect_502.bin
+odm/etc/vibrator/816/def/effect_503.bin
+odm/etc/vibrator/816/def/effect_504.bin
+odm/etc/vibrator/816/def/effect_505.bin
+odm/etc/vibrator/816/def/effect_506.bin
+odm/etc/vibrator/816/def/effect_507.bin
+odm/etc/vibrator/816/def/effect_508.bin
+odm/etc/vibrator/816/def/effect_509.bin
+odm/etc/vibrator/816/def/effect_51.bin
+odm/etc/vibrator/816/def/effect_510.bin
+odm/etc/vibrator/816/def/effect_511.bin
+odm/etc/vibrator/816/def/effect_512.bin
+odm/etc/vibrator/816/def/effect_513.bin
+odm/etc/vibrator/816/def/effect_514.bin
+odm/etc/vibrator/816/def/effect_515.bin
+odm/etc/vibrator/816/def/effect_516.bin
+odm/etc/vibrator/816/def/effect_517.bin
+odm/etc/vibrator/816/def/effect_518.bin
+odm/etc/vibrator/816/def/effect_519.bin
+odm/etc/vibrator/816/def/effect_52.bin
+odm/etc/vibrator/816/def/effect_520.bin
+odm/etc/vibrator/816/def/effect_521.bin
+odm/etc/vibrator/816/def/effect_522.bin
+odm/etc/vibrator/816/def/effect_523.bin
+odm/etc/vibrator/816/def/effect_524.bin
+odm/etc/vibrator/816/def/effect_525.bin
+odm/etc/vibrator/816/def/effect_526.bin
+odm/etc/vibrator/816/def/effect_527.bin
+odm/etc/vibrator/816/def/effect_528.bin
+odm/etc/vibrator/816/def/effect_529.bin
+odm/etc/vibrator/816/def/effect_53.bin
+odm/etc/vibrator/816/def/effect_530.bin
+odm/etc/vibrator/816/def/effect_531.bin
+odm/etc/vibrator/816/def/effect_532.bin
+odm/etc/vibrator/816/def/effect_533.bin
+odm/etc/vibrator/816/def/effect_534.bin
+odm/etc/vibrator/816/def/effect_535.bin
+odm/etc/vibrator/816/def/effect_536.bin
+odm/etc/vibrator/816/def/effect_537.bin
+odm/etc/vibrator/816/def/effect_538.bin
+odm/etc/vibrator/816/def/effect_539.bin
+odm/etc/vibrator/816/def/effect_54.bin
+odm/etc/vibrator/816/def/effect_540.bin
+odm/etc/vibrator/816/def/effect_55.bin
+odm/etc/vibrator/816/def/effect_56.bin
+odm/etc/vibrator/816/def/effect_59.bin
+odm/etc/vibrator/816/def/effect_6.bin
+odm/etc/vibrator/816/def/effect_60.bin
+odm/etc/vibrator/816/def/effect_61.bin
+odm/etc/vibrator/816/def/effect_62.bin
+odm/etc/vibrator/816/def/effect_63.bin
+odm/etc/vibrator/816/def/effect_64.bin
+odm/etc/vibrator/816/def/effect_65.bin
+odm/etc/vibrator/816/def/effect_66.bin
+odm/etc/vibrator/816/def/effect_67.bin
+odm/etc/vibrator/816/def/effect_68.bin
+odm/etc/vibrator/816/def/effect_69.bin
+odm/etc/vibrator/816/def/effect_7.bin
+odm/etc/vibrator/816/def/effect_8.bin
+odm/etc/vibrator/816/def/effect_9.bin
+odm/etc/vibrator/816/soft/effect_0.bin
+odm/etc/vibrator/816/soft/effect_1.bin
+odm/etc/vibrator/816/soft/effect_105.bin
+odm/etc/vibrator/816/soft/effect_106.bin
+odm/etc/vibrator/816/soft/effect_107.bin
+odm/etc/vibrator/816/soft/effect_109.bin
+odm/etc/vibrator/816/soft/effect_2.bin
+odm/etc/vibrator/816/soft/effect_3.bin
+odm/etc/vibrator/816/soft/effect_309.bin
+odm/etc/vibrator/816/soft/effect_310.bin
+odm/etc/vibrator/816/soft/effect_315.bin
+odm/etc/vibrator/816/soft/effect_316.bin
+odm/etc/vibrator/816/soft/effect_318.bin
+odm/etc/vibrator/816/soft/effect_362.bin
+odm/etc/vibrator/816/soft/effect_363.bin
+odm/etc/vibrator/816/soft/effect_364.bin
+odm/etc/vibrator/816/soft/effect_4.bin
+odm/etc/vibrator/816/soft/effect_46.bin
+odm/etc/vibrator/816/soft/effect_47.bin
+odm/etc/vibrator/816/soft/effect_54.bin
+odm/etc/vibrator/816/soft/effect_6.bin
+odm/etc/vibrator/816/soft/effect_7.bin
+odm/etc/vibrator/816/soft/effect_8.bin
+
+# Pixelworks Iris7p + AE084_P_3_A0033 panel assets
+odm/bin/hw/vendor.pixelworks.hardware.feature-service
+odm/etc/vintf/manifest/vendor.pixelworks.hardware.feature-service.xml
+odm/etc/vintf/manifest/vendor.pixelworks.hardware.display-service.xml
+# libPanelChaplin is NOT listed here on purpose: vendor/oneplus/sm8850-common
+# already ships both copies, which lafa inherits through common.mk:
+#   odm/lib64/libPanelChaplin.so                            -> module libPanelChaplin
+#   vendor/lib64/libPanelChaplin.so;MODULE_SUFFIX=_vendor   -> module libPanelChaplin_vendor (stem kept)
+# Listing them here as well would define duplicate modules.
+odm/etc/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel.xml
+odm/etc/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel.fw
+odm/firmware/iris7p.fw
+odm/firmware/iris7p_ccf1.fw
+odm/firmware/iris7p_ccf2.fw
+odm/firmware/iris7p_ccf3.fw
+odm/firmware/pxlw_i7p_panel_AE084_P_3_A0033_dsc_cmd.fw
+odm/firmware/pxlw_i7p_panel_AE084_P_3_A0033_dsc_cmd_dvt02.fw
+odm/firmware/pxlw_i7p_panel_AE084_P_3_A0033_dsc_cmd_dvt03.fw
+odm/etc/p_3_a0033_backlight_data.xml
+odm/etc/p_3_a0033_cinema_eyeprotect_data.xml
+odm/etc/p_3_a0033_cm2_standard_eyeprotect_data.xml
+odm/etc/p_3_a0033_cm2_vivid_enhance_eyeprotect_data.xml
+odm/etc/p_3_a0033_cm2_vivid_standard_eyeprotect_data.xml
+odm/etc/p_3_a0033_colorful_eyeprotect_data.xml
+odm/etc/p_3_a0033_eyeprotect_data.xml
+odm/etc/display/qdcm_calib_data_AE084_P_3_A0033_dsc_cmd_mode_panel.json
+vendor/etc/ltm_config_AE084_P_3_A0033_dsc_cmd_mode_panel.xml
+vendor/etc/displayconfig/display_id_4630946850534658451.xml
+vendor/etc/displayconfig/display_id_4630946916234099603.xml
+vendor/etc/displayconfig/display_id_4630947039571902850.xml
+vendor/etc/displayconfig/display_id_4630947039571902851.xml
+vendor/etc/displayconfig/display_id_4630947075271898515.xml
+
+# Pixelworks Iris7p in-panel parameter tables (AE084_P_3_A0033)
+odm/etc/inparm/iris7p_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm17.txt
+odm/etc/inparm/iris7p_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm22.txt
+odm/etc/inparm/iris7p_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm23.txt
+odm/etc/inparm/iris7p_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm2.txt
+odm/etc/inparm/iris7p_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm5.txt
+odm/etc/inparm/iris7p_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm8.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm14_2nit.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm14_eye_D45.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm14_eye_D65.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm14_eye.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm14_larger.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm14_low.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm14.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm17_2nit.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm17_eye_D45.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm17_eye_D65.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm17_eye.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm17_larger.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm17_low.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm17.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm2_2nit.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm26_2nit.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm26_eye_D45.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm26_eye_D65.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm26_eye.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm26_larger.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm26_low.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm26.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm2_eye_D45.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm2_eye_D65.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm2_eye.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm2_larger.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm2_low.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm2.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm37.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm47_2nit.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm47_eye_D45.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm47_eye_D65.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm47_eye.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm47_larger.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm47_low.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm47.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm50_2nit.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm50_eye_D45.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm50_eye_D65.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm50_eye.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm50_larger.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm50_low.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm50.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm5_2nit.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm5_eye_D45.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm5_eye_D65.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm5_eye.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm5_larger.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm5_low.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm5.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm8_2nit.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm8_eye_D45.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm8_eye_D65.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm8_eye.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm8_larger.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm8_low.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/inParm8.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/mcfCheck_2nit.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/mcfCheck_low.txt
+odm/etc/inparm/irissoft_AE084_P_3_A0033_dsc_cmd_mode_panel/mcfCheck.txt
+
+# Pixelworks Iris7p userspace stack. hardware/ in LineageOS has no pixelworks
+# tree, so every one of these has to come from the device. They live in odm/lib64
+# next to vendor.pixelworks.hardware.feature-service, and no LineageOS source
+# module defines them - checked against the full Soong module list.
+odm/lib64/libpwirisfeature.so
+odm/lib64/libpwirishalwrapper.so
+odm/lib64/libpwirishardware_ext.so
+odm/lib64/libpwiriscalibrate.so
+odm/lib64/libpwirisfeaturehal.so
+odm/lib64/libpwirisIoctlWrapper.so
+odm/lib64/libpwirisPCS.so
+odm/lib64/libpwirispq.so
+odm/lib64/libpwirisservicei7p.so
+odm/lib64/libpwirissoft.so
+odm/lib64/libpwsoftirisPCS.so
+odm/lib64/libsnapdragoncolor-pxlw.so
+odm/lib64/vendor.pixelworks.hardware.display@1.0.so
+odm/lib64/vendor.pixelworks.hardware.display@1.1.so
+odm/lib64/vendor.pixelworks.hardware.display@1.2.so
+odm/lib64/vendor.pixelworks.hardware.display-impl.so
+odm/lib64/vendor.pixelworks.hardware.display-V3-ndk.so
+odm/lib64/vendor.pixelworks.hardware.feature@1.0.so
+odm/lib64/vendor.pixelworks.hardware.feature@1.1.so
+odm/lib64/vendor.pixelworks.hardware.feature@1.2.so
+odm/lib64/vendor.pixelworks.hardware.feature-V2-ndk.so
+
+## ---------------------------------------------------------------------------
+## Camera blobs absent from the bootstrapped list above.
+##
+## The list above came from device/oneplus/infiniti. Its per-sensor camera
+## configs are named after that project (config/infinitimain, ...), so those
+## entries did not exist on lafa and were dropped - but the lafa equivalents
+## were never added back, leaving /odm/etc/camera only partially listed.
+##
+## Consequence: odm/etc/camera/config/lafa{main,front,wide,tele} end up missing
+## from the build. The camera HAL reads SensorNameList from
+## CameraHWConfiguration.config ("lafamain; lafafront; lafawide; lafatele;"),
+## cannot find the matching per-sensor configs, falls back to a default sensor
+## set and asks the kernel to probe hardware that is not on this device. Every
+## sensor then fails cam_sensor_match_id and `dumpsys media.camera` reports
+## "Number of camera devices: 0" - the camera app opens to a black screen.
+##
+## Enumerated by diffing the extracted RMX5200_16.0.10.501 odm tree against the
+## one this device tree produces: 256 files, about 1.1 GB. The AI model blobs
+## (hybridraw_models, dualcam_capture_bokeh, apk_resources, ...) account for
+## most of that; the camera-critical entries are config/lafa*, cfr_bin/CFR_lafa*
+## and rmsc_bin/*.
+## ---------------------------------------------------------------------------
+odm/etc/camera/AIAEVideoModelMain.bin
+odm/etc/camera/AIAEVideoModelTele.bin
+odm/etc/camera/AIAEVideoModelWide.bin
+odm/etc/camera/aigc/aigc_models/blurDet_sm8750.bin
+odm/etc/camera/aigc/aigc_models/faceSeg_sm8750.bin
+odm/etc/camera/aigc/aigc_models/gfpgan1024_sm8750.bin
+odm/etc/camera/aigc/aigc_models/noise200.bin
+odm/etc/camera/aigc/libs/libQnnHtp.so
+odm/etc/camera/aigc/libs/libQnnHtpV81Stub.so
+odm/etc/camera/aigc/libs/libQnnSystem.so
+odm/etc/camera/ancbokehseg/anc_cl_kernel.cache
+odm/etc/camera/apk_resources/mp4/lumo_guide_video_1.mp4
+odm/etc/camera/apk_resources/mp4/lumo_guide_video_2.mp4
+odm/etc/camera/apk_resources/mp4/mag_handle_popup.mp4
+odm/etc/camera/apk_resources/mp4/mag_handle_popup_night.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_night_page_1.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_night_page_2.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_night_page_3.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_night_page_4.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_night_page_sliver_1.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_night_page_sliver_2.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_night_page_sliver_3.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_night_page_sliver_4.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_page1.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_page2.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_page3.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_page4.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_page_sliver_1.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_page_sliver_2.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_page_sliver_3.mp4
+odm/etc/camera/apk_resources/mp4/outflash_guide_page_sliver_4.mp4
+odm/etc/camera/apk_resources/mp4/outflash_popup.mp4
+odm/etc/camera/apk_resources/mp4/outflash_popup_night.mp4
+odm/etc/camera/apk_resources/mp4/outflash_popup_night_sliver.mp4
+odm/etc/camera/apk_resources/mp4/outflash_popup_sliver.mp4
+odm/etc/camera/basictone/lmt/LMTLut4
+odm/etc/camera/basictone/lmt/LMTLut5
+odm/etc/camera/CaliData/mtStereoParams_golden.bin
+odm/etc/camera/CaliData/mtStereoParams_golden_far.bin
+odm/etc/camera/CaliData/mwStereoParams_golden.bin
+odm/etc/camera/cfr_bin/CFR_lafamain.bin
+odm/etc/camera/cfr_bin/CFR_lafatele.bin
+odm/etc/camera/cfr_bin/CFR_lafawide.bin
+odm/etc/camera/config/lafafront
+odm/etc/camera/config/lafamain
+odm/etc/camera/config/lafatele
+odm/etc/camera/config/lafawide
+odm/etc/camera/dng/ColorMatrix1_lafamain.txt
+odm/etc/camera/dng/ColorMatrix1_lafatele.txt
+odm/etc/camera/dng/ColorMatrix1_lafawide.txt
+odm/etc/camera/dng/ColorMatrix2_lafamain.txt
+odm/etc/camera/dng/ColorMatrix2_lafatele.txt
+odm/etc/camera/dng/ColorMatrix2_lafawide.txt
+odm/etc/camera/dng/D28HUESATMap_lafamain.txt
+odm/etc/camera/dng/D28HUESATMap_lafatele.txt
+odm/etc/camera/dng/D28HUESATMap_lafawide.txt
+odm/etc/camera/dng/D65HUESATMap_lafamain.txt
+odm/etc/camera/dng/D65HUESATMap_lafatele.txt
+odm/etc/camera/dng/D65HUESATMap_lafawide.txt
+odm/etc/camera/dng/ToneCurve_lafamain.txt
+odm/etc/camera/dng/ToneCurve_lafatele.txt
+odm/etc/camera/dng/ToneCurve_lafawide.txt
+odm/etc/camera/dualcam_capture_bokeh/dualcam_cl_binary_SM8850_GT8.bin
+odm/etc/camera/dualcam_capture_bokeh/dualcam_preview_cl_binary.bin
+odm/etc/camera/dualcam_capture_bokeh/dxo_queen_seg.json
+odm/etc/camera/dualcam_capture_bokeh/dxo_queen_seg_q.odnn
+odm/etc/camera/dualcam_capture_bokeh/edgeref.json
+odm/etc/camera/dualcam_capture_bokeh/edgeref_q.odnn
+odm/etc/camera/dualcam_capture_bokeh/glassSeg.json
+odm/etc/camera/dualcam_capture_bokeh/glassSeg_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/global_det.json
+odm/etc/camera/dualcam_capture_bokeh/global_det_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/hair_refine_crop_512_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/hair_refine_crop_bigface_512_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/hair_refine_crop_night_512_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/hair_refine.json
+odm/etc/camera/dualcam_capture_bokeh/hair_refine_type_param.json
+odm/etc/camera/dualcam_capture_bokeh/hairsegExpand.json
+odm/etc/camera/dualcam_capture_bokeh/hairsegExpand_q.odnn
+odm/etc/camera/dualcam_capture_bokeh/hand_roi_det.json
+odm/etc/camera/dualcam_capture_bokeh/hand_roi_det_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/handSeg.json
+odm/etc/camera/dualcam_capture_bokeh/hand_seg_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/head_det.json
+odm/etc/camera/dualcam_capture_bokeh/head_det_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/largeHeadSeg_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/largeHeadSeg_q.json
+odm/etc/camera/dualcam_capture_bokeh/mattingV2.json
+odm/etc/camera/dualcam_capture_bokeh/mattingV2_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/monodepth.json
+odm/etc/camera/dualcam_capture_bokeh/monodepth_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/petmatting.json
+odm/etc/camera/dualcam_capture_bokeh/petmatting_q.odnn
+odm/etc/camera/dualcam_capture_bokeh/plush_det.json
+odm/etc/camera/dualcam_capture_bokeh/plush_det_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/preview_depth_240x320_q.odnn
+odm/etc/camera/dualcam_capture_bokeh/preview_depth_320x240_q.odnn
+odm/etc/camera/dualcam_capture_bokeh/preview_depth_320x320_q.odnn
+odm/etc/camera/dualcam_capture_bokeh/preview_depth.json
+odm/etc/camera/dualcam_capture_bokeh/preview_rectify_param.json
+odm/etc/camera/dualcam_capture_bokeh/preview_refine_q.odnn
+odm/etc/camera/dualcam_capture_bokeh/preview_render_param.json
+odm/etc/camera/dualcam_capture_bokeh/rectify_param.json
+odm/etc/camera/dualcam_capture_bokeh/render_param.json
+odm/etc/camera/dualcam_capture_bokeh/stereodepth.json
+odm/etc/camera/dualcam_capture_bokeh/stereodepth_q.dlx
+odm/etc/camera/dualcam_capture_bokeh/stereodepth_q_obj.dlx
+odm/etc/camera/fb_model/AITM_hdr2sdr_65536_fp32.bin
+odm/etc/camera/fb_model/AITM_sdr2hdr_65536_fp32.bin
+odm/etc/camera/hybridraw_models/ai_flow_front.bix
+odm/etc/camera/hybridraw_models/aiFusion.bin
+odm/etc/camera/hybridraw_models/ai_hdr_recovery.bin
+odm/etc/camera/hybridraw_models/aiInit.bin
+odm/etc/camera/hybridraw_models/ai_motion_mask_12MNormal_bs1_w8a8.bix
+odm/etc/camera/hybridraw_models/ai_motion_mask_12MNormal_bs3_w8a8.bix
+odm/etc/camera/hybridraw_models/ai_motion_mask_18M.bix
+odm/etc/camera/hybridraw_models/ai_motion_mask_50M.bix
+odm/etc/camera/hybridraw_models/ai_seg_human_landscape.bin
+odm/etc/camera/hybridraw_models/ai_seg_human_portrait.bin
+odm/etc/camera/hybridraw_models/ai_seg_skin.bix
+odm/etc/camera/hybridraw_models/ai_sunset_classify.bix
+odm/etc/camera/hybridraw_models/aitm_downNet_BackLight_Portrait_Horizonal.bin
+odm/etc/camera/hybridraw_models/aitm_downNet_BackLight_Portrait_Vertical.bin
+odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Landscape_Horizonal.bin
+odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Landscape_Vertical.bin
+odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Portrait_Horizonal.bin
+odm/etc/camera/hybridraw_models/aitm_downNet_Sunset_Portrait_Vertical.bin
+odm/etc/camera/hybridraw_models/aitm_tonemapNet_BackLight_Portrait_Horizonal.bin
+odm/etc/camera/hybridraw_models/aitm_tonemapNet_BackLight_Portrait_Vertical.bin
+odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Landscape_Horizonal.bin
+odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Landscape_Vertical.bin
+odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Portrait_Horizonal.bin
+odm/etc/camera/hybridraw_models/aitm_tonemapNet_Sunset_Portrait_Vertical.bin
+odm/etc/camera/hybridraw_models/aitm_upNet_BackLight_Portrait_Horizonal.bin
+odm/etc/camera/hybridraw_models/aitm_upNet_BackLight_Portrait_Vertical.bin
+odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Landscape_Horizonal.bin
+odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Landscape_Vertical.bin
+odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Portrait_Horizonal.bin
+odm/etc/camera/hybridraw_models/aitm_upNet_Sunset_Portrait_Vertical.bin
+odm/etc/camera/hybridraw_models/disto_xy_2048x1536x2.raw
+odm/etc/camera/hybridraw_models/front_main_binning_ev0_3f.bin
+odm/etc/camera/hybridraw_models/front_main_binning_ev0.bin
+odm/etc/camera/hybridraw_models/front_main_binning_evm.bin
+odm/etc/camera/hybridraw_models/front_main_binning_evmm.bin
+odm/etc/camera/hybridraw_models/gan_enhancer_20x_binning.bin
+odm/etc/camera/hybridraw_models/gan_enhancer_40x_binning.bin
+odm/etc/camera/hybridraw_models/gan_enhancer_80x_binning.bin
+odm/etc/camera/hybridraw_models/gtm_curve_65536_fp32.bin
+odm/etc/camera/hybridraw_models/jdd_enhancernet_25m.bix
+odm/etc/camera/hybridraw_models/jdd_enhancernet.bix
+odm/etc/camera/hybridraw_models/jdd_enhancernet_night_portrait.bix
+odm/etc/camera/hybridraw_models/jdd_enhancernet_pet.bin
+odm/etc/camera/hybridraw_models/main_binning_ev0_sf.bin
+odm/etc/camera/hybridraw_models/photo_main_binning_ev0_3f.bix
+odm/etc/camera/hybridraw_models/photo_main_binning_ev0_3f_underwater.bin
+odm/etc/camera/hybridraw_models/photo_main_binning_ev0.bin
+odm/etc/camera/hybridraw_models/photo_main_binning_ev0_motion_3f.bix
+odm/etc/camera/hybridraw_models/photo_main_binning_ev0_night_3f.bix
+odm/etc/camera/hybridraw_models/photo_main_binning_ev0_person_3f.bix
+odm/etc/camera/hybridraw_models/photo_main_binning_evm.bix
+odm/etc/camera/hybridraw_models/photo_main_binning_evm_landscape.bix
+odm/etc/camera/hybridraw_models/photo_main_binning_evmm.bix
+odm/etc/camera/hybridraw_models/photo_main_binning_evm_snapshot.bix
+odm/etc/camera/hybridraw_models/photo_main_mix_ev0_25M.bin
+odm/etc/camera/hybridraw_models/photo_main_mix_ev0.bin
+odm/etc/camera/hybridraw_models/photo_main_mix_ev0_landscape.bin
+odm/etc/camera/hybridraw_models/photo_main_quadbayer_ev0_2x_3f.bin
+odm/etc/camera/hybridraw_models/photo_main_quadbayer_ev0_2x_3f_landscape.bin
+odm/etc/camera/hybridraw_models/photo_main_quadbayer_ev0_50m_3f.bin
+odm/etc/camera/hybridraw_models/photo_main_quadbayer_evm_2x.bin
+odm/etc/camera/hybridraw_models/photo_main_quadbayer_evm_2x_landscape.bin
+odm/etc/camera/hybridraw_models/photo_main_quadbayer_evmm_2x.bin
+odm/etc/camera/hybridraw_models/photo_main_quadbayer_evm_snapshot_2x.bin
+odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_3x_3f.bix
+odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_3x.bin
+odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_3x_motion_3f.bin
+odm/etc/camera/hybridraw_models/photo_tele1_binning_ev0_night_3x_3f.bix
+odm/etc/camera/hybridraw_models/photo_tele1_binning_evm_3x.bix
+odm/etc/camera/hybridraw_models/photo_tele1_binning_evm_3x_landscape.bix
+odm/etc/camera/hybridraw_models/photo_tele1_binning_evmm_3x.bix
+odm/etc/camera/hybridraw_models/photo_tele1_binning_evm_snapshot_3x.bix
+odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_3f_200m.bin
+odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_3f.bin
+odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0.bin
+odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_person_3f_200m.bin
+odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_ev0_person.bin
+odm/etc/camera/hybridraw_models/photo_tele1_hexabayer_evm.bin
+odm/etc/camera/hybridraw_models/photo_tele1_mix_ev0_25M.bin
+odm/etc/camera/hybridraw_models/photo_tele1_mix_ev0.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_10x_3f.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_3f.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_6x_3f.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_6x_3f_landscape.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_6x_night_3f.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_fallback.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_ev0_supernight.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evm_6x.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evm.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evmm_6x.bin
+odm/etc/camera/hybridraw_models/photo_tele1_quadbayer_evm_snapshot_6x.bin
+odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x_3f.bin
+odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x_3f_person.bin
+odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x.bin
+odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_6x_motion_3f.bin
+odm/etc/camera/hybridraw_models/photo_tele2_binning_ev0_night_6x_3f.bin
+odm/etc/camera/hybridraw_models/photo_tele2_binning_evm_6x.bin
+odm/etc/camera/hybridraw_models/photo_tele2_binning_evm_6x_landscape.bin
+odm/etc/camera/hybridraw_models/photo_tele2_binning_evmm_6x.bin
+odm/etc/camera/hybridraw_models/photo_tele2_binning_evm_snapshot_6x.bin
+odm/etc/camera/hybridraw_models/photo_tele2_mix_ev0_25M.bin
+odm/etc/camera/hybridraw_models/photo_tele2_mix_ev0.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_3f.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_3f_higher_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_3f_lower_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_ev0.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_day5f.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_day_and_night_5f.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_motion_3f_higher_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_ev0_motion_3f_lower_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_evm.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_evm_higher_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_evm_higher_iso_landscape.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_evm_lower_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_evm_lower_iso_landscape.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_evmm_higher_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_evmm_lower_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_evm_snapshot_higher_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_binning_evm_snapshot_lower_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_mix_ev0_25M_higher_iso.bin
+odm/etc/camera/hybridraw_models/photo_uw_mix_ev0_25M_lower_iso.bin
+odm/etc/camera/hybridraw_models/sd_noise2.bin
+odm/etc/camera/hybridraw_models/tele1_binning_ev0_sf_3x.bin
+odm/etc/camera/hybridraw_models/tele2_binning_ev0_sf_6x.bin
+odm/etc/camera/hybridraw_models/tele2_quadbayer_ev0.bin
+odm/etc/camera/hybridraw_models/tele_binning_ev0_60x.bin
+odm/etc/camera/hybridraw_models/tele_quadbayer_ev0_10x_18M_3f.bin
+odm/etc/camera/hybridraw_models/tele_quadbayer_ev0_20x.bin
+odm/etc/camera/hybridraw_models/tele_quadbayer_evm_10x_18M.bin
+odm/etc/camera/hybridraw_models/uw_binning_ev0_sf_higher_iso.bin
+odm/etc/camera/hybridraw_models/uw_binning_ev0_sf_lower_iso.bin
+odm/etc/camera/hybridraw_models/uw_quadbayer_ev0_higher_iso.bin
+odm/etc/camera/hybridraw_models/uw_quadbayer_ev0_lower_iso.bin
+odm/etc/camera/hybridraw_models/uw_quadbayer_evm_higher_iso.bin
+odm/etc/camera/hybridraw_models/uw_quadbayer_evm_lower_iso.bin
+odm/etc/camera/license_release_fdc.lic
+odm/etc/camera/livephoto_coverenhancer/models/license_release_gallery.lic
+odm/etc/camera/model/auto_crop_model.tflite
+odm/etc/camera/model/license.lic
+odm/etc/camera/model/obj_det.tflite
+odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e51.bundle
+odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle
+odm/etc/camera/oplus_seg_sdk/seg_cl_binary.bin
+odm/etc/camera/rmsc_bin/otp_data.dat
+odm/etc/camera/rmsc_bin/RCP_CL_Kernels.bin
+odm/etc/camera/rmsc_bin/tunable_param.bin
+odm/etc/camera/singleblur/license_release.license
+
+## ---------------------------------------------------------------------------
+## lafa sensor modules under /odm/lib64/camera.
+##
+## These are the modules camx enumerates cameras from. Without them the HAL
+## falls back to whatever is left in /vendor/lib64/camera (imx766, imx858,
+## s5kjn5, ov32c4c - the reference set), probes hardware that is not present
+## and reports "Number of camera devices: 0" - a black camera.
+##     10-05 Chi: Map camera id 2 --> sensorName:imx766     (wrong)
+##     10-05 CAM_WARN: imx766 read id: 0x906 expected 0x766 (hardware is lafa)
+## ---------------------------------------------------------------------------
+odm/lib64/camera/awb_parameter_lafafront.bin
+odm/lib64/camera/awb_parameter_lafamain.bin
+odm/lib64/camera/awb_parameter_lafatele.bin
+odm/lib64/camera/awb_parameter_lafawide.bin
+odm/lib64/camera/com.qti.sensor.lafafront.so
+odm/lib64/camera/com.qti.sensor.lafamain.so
+odm/lib64/camera/com.qti.sensor.lafatele.so
+odm/lib64/camera/com.qti.sensor.lafawide.so
+odm/lib64/camera/com.qti.sensormodule.lafafront.bin
+odm/lib64/camera/com.qti.sensormodule.lafamain.bin
+odm/lib64/camera/com.qti.sensormodule.lafatele.bin
+odm/lib64/camera/com.qti.sensormodule.lafatele_short.bin
+odm/lib64/camera/com.qti.sensormodule.lafawide.bin
+odm/lib64/camera/com.qti.tuned.lafafront.bin
+odm/lib64/camera/com.qti.tuned.lafamain.bin
+odm/lib64/camera/com.qti.tuned.lafatele.bin
+odm/lib64/camera/com.qti.tuned.lafawide.bin
+odm/lib64/camera/components/com.qti.node.videodarkvision.so
+
+## ---------------------------------------------------------------------------
+## Remaining camera blobs missing from the bootstrapped list (same cause as the
+## /odm/lib64/camera sensor modules above). The two fake camera-extension blobs
+## are still deliberately excluded - see the fake jar note; they ship a kotlin
+## stdlib that shadows the one bundled with WeChat.
+## ---------------------------------------------------------------------------
+odm/lib/libOPAlgoCamHDRTransformCamera.so
+odm/lib/libopluscameraframeboost.so
+odm/lib/vendor.oplus.hardware.camera_rfi-V1-service-impl.so
+odm/lib/vendor.oplus.hardware.extcamera@1.0.so
+odm/lib64/vendor.oplus.hardware.extcamera@1.0.so
+
+## ---------------------------------------------------------------------------
+## lafa NFC blobs, same class of gap as the camera ones: the list was
+## bootstrapped from device/oneplus/infiniti, whose NFC configs carry the
+## infiniti project ids (libnfc-*_24831 / _24863). lafa is 24624 / 24776, so
+## those files were never listed and the device ran on infiniti's NFC settings.
+## ---------------------------------------------------------------------------
+odm/etc/libnfc-nci.conf
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31_fw_D1_18
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31_fw_D1_1A_02
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31_fw_D1_1B_01
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31_fw_D1_1B_04
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31_fw_D1_1B_06
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31_fw_D1_1C_00
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31f_fw_D2_12_2B
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31f_fw_D2_12_2C
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31f_fw_D2_12_2E
+odm/etc/nfc/libnfc-mtp-SN220.conf_24624
+odm/etc/nfc/libnfc-mtp-SN220.conf_24776
+odm/etc/nfc/libnfc-mtp-SN220.conf_24831
+odm/etc/nfc/libnfc-mtp-SN220.conf_24863
+odm/etc/nfc/libnfc-mtp-SN220.conf_25001
+odm/etc/nfc/libnfc-mtp-SN220.conf_25002
+odm/etc/nfc/libnfc-mtp-SN220.conf_25201
+odm/etc/nfc/libnfc-mtp-SN220.conf_25821
+odm/etc/nfc/libnfc-mtp-SN220.conf_25871
+odm/etc/nfc/libnfc-nci.conf_24624
+odm/etc/nfc/libnfc-nci.conf_24776
+odm/etc/nfc/libnfc-nci.conf_24831
+odm/etc/nfc/libnfc-nci.conf_24863
+odm/etc/nfc/libnfc-nci.conf_25001
+odm/etc/nfc/libnfc-nci.conf_25002
+odm/etc/nfc/libnfc-nci.conf_25201
+odm/etc/nfc/libnfc-nci.conf_25821
+odm/etc/nfc/libnfc-nci.conf_25871
+odm/etc/nfc/libnfc-nxpTransit.conf_24624
+odm/etc/nfc/libnfc-nxpTransit.conf_24776
+odm/etc/nfc/libnfc_SuperCard_config.conf_24624
+odm/etc/nfc/libnfc_SuperCard_config.conf_24831
+odm/etc/nfc/libnfc_SuperCard_config.conf_25001
+odm/etc/nfc/libnfc_SuperCard_config.conf_25002
+odm/etc/nfc/libnfc_SuperCard_config.conf_25821
+odm/etc/nfc/libnfc_accesscard_config.conf_24624
+odm/etc/nfc/libnfc_accesscard_config.conf_24776
+odm/etc/nfc/libnfc_accesscard_config.conf_24831
+odm/etc/nfc/libnfc_accesscard_config.conf_24863
+odm/etc/nfc/libnfc_accesscard_config.conf_25001
+odm/etc/nfc/libnfc_accesscard_config.conf_25002
+odm/etc/nfc/libnfc_accesscard_config.conf_25201
+odm/etc/nfc/libnfc_accesscard_config.conf_25821
+odm/etc/nfc/libnfc_accesscard_config.conf_25871
+odm/etc/nfc/libnfc_accesscard_index0_config.conf_24624
+odm/etc/nfc/libnfc_accesscard_index0_config.conf_24776
+odm/etc/nfc/libnfc_accesscard_index0_config.conf_24831
+odm/etc/nfc/libnfc_accesscard_index0_config.conf_25001
+odm/etc/nfc/libnfc_accesscard_index0_config.conf_25002
+odm/etc/nfc/libnfc_accesscard_index0_config.conf_25821
+odm/etc/nfc/libnfc_accesscard_index1_config.conf_24624
+odm/etc/nfc/libnfc_accesscard_index1_config.conf_24776
+odm/etc/nfc/libnfc_accesscard_index1_config.conf_24831
+odm/etc/nfc/libnfc_accesscard_index1_config.conf_25001
+odm/etc/nfc/libnfc_accesscard_index1_config.conf_25002
+odm/etc/nfc/libnfc_accesscard_index1_config.conf_25821
+odm/etc/nfc/libnfc_accesscard_index2_config.conf_24624
+odm/etc/nfc/libnfc_accesscard_index2_config.conf_24776
+odm/etc/nfc/libnfc_accesscard_index2_config.conf_24831
+odm/etc/nfc/libnfc_accesscard_index2_config.conf_25001
+odm/etc/nfc/libnfc_accesscard_index2_config.conf_25002
+odm/etc/nfc/libnfc_accesscard_index2_config.conf_25821
+odm/etc/nfc/libnfc_accesscard_index3_config.conf_24624
+odm/etc/nfc/libnfc_accesscard_index3_config.conf_25001
+odm/etc/nfc/libnfc_accesscard_index3_config.conf_25002
+odm/etc/nfc/libnfc_accesscard_index3_config.conf_25821
+odm/etc/nfc/libnfc_car_config.conf_24624
+odm/etc/nfc/libnfc_car_config.conf_24776
+odm/etc/nfc/libnfc_car_config.conf_24831
+odm/etc/nfc/libnfc_car_config.conf_25001
+odm/etc/nfc/libnfc_car_config.conf_25002
+odm/etc/nfc/libnfc_car_config.conf_25821
+odm/etc/nfc/libnfc_default_config.conf_24624
+odm/etc/nfc/libnfc_default_config.conf_24776
+odm/etc/nfc/libnfc_default_config.conf_24831
+odm/etc/nfc/libnfc_default_config.conf_24863
+odm/etc/nfc/libnfc_default_config.conf_25001
+odm/etc/nfc/libnfc_default_config.conf_25002
+odm/etc/nfc/libnfc_default_config.conf_25201
+odm/etc/nfc/libnfc_default_config.conf_25821
+odm/etc/nfc/libnfc_default_config.conf_25871
+odm/etc/nfc/libnfc_guiyang_SuperCard_config.conf_24624
+odm/etc/nfc/libnfc_guiyang_config.conf_24624
+odm/etc/nfc/libnfc_haerbin_SuperCard_config.conf_24624
+odm/etc/nfc/libnfc_haerbin_SuperCard_config.conf_25001
+odm/etc/nfc/libnfc_haerbin_SuperCard_config.conf_25002
+odm/etc/nfc/libnfc_haerbin_config.conf_24624
+odm/etc/nfc/libnfc_haerbin_config.conf_24776
+odm/etc/nfc/libnfc_haerbin_config.conf_24831
+odm/etc/nfc/libnfc_haerbin_config.conf_25001
+odm/etc/nfc/libnfc_haerbin_config.conf_25002
+odm/etc/nfc/libnfc_haerbin_config.conf_25821
+odm/etc/nfc/libnfc_hefei_SuperCard_config.conf_24624
+odm/etc/nfc/libnfc_hefei_SuperCard_config.conf_24831
+odm/etc/nfc/libnfc_hefei_SuperCard_config.conf_25001
+odm/etc/nfc/libnfc_hefei_SuperCard_config.conf_25002
+odm/etc/nfc/libnfc_hefei_SuperCard_config.conf_25821
+odm/etc/nfc/libnfc_hefei_config.conf_24624
+odm/etc/nfc/libnfc_hefei_config.conf_24776
+odm/etc/nfc/libnfc_hefei_config.conf_24831
+odm/etc/nfc/libnfc_hefei_config.conf_25001
+odm/etc/nfc/libnfc_hefei_config.conf_25002
+odm/etc/nfc/libnfc_hefei_config.conf_25821
+odm/etc/nfc/libnfc_tap_config.conf_24624
+odm/etc/nfc/libnfc_tap_config.conf_24776
+odm/etc/nfc/libnfc_tap_config.conf_24831
+odm/etc/nfc/libnfc_tap_config.conf_24863
+odm/etc/nfc/libnfc_tap_config.conf_25001
+odm/etc/nfc/libnfc_tap_config.conf_25002
+odm/etc/nfc/libnfc_tap_config.conf_25201
+odm/etc/nfc/libnfc_tap_config.conf_25821
+odm/etc/nfc/libnfc_tap_config.conf_25871
+odm/etc/nfc/libnfc_xian_SuperCard_config.conf_24831
+odm/etc/nfc/nfc_conf_ref
+odm/etc/nfc/nfc_fw_ref
+odm/etc/nfc/pnscr/libnfc-nxp-pnscr.conf
+odm/etc/nfc/pnscr/sn100u_bootup.pnscr
+odm/etc/nfc/pnscr/sn100u_ese_disableIso.pnscr
+odm/etc/nfc/pnscr/sn100u_ese_disableIsoRead.pnscr
+odm/etc/nfc/pnscr/sn100u_nfcon.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_chr.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_cui.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_current.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_ese_3.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_ese_aclog.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_ese_cplc.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_ese_fabkey.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_ese_free.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_ese_keyset.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_ese_sn.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_freq.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_ndi.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_pcv.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_spc.pnscr
+odm/etc/nfc/pnscr/sn100u_pnx_sst.pnscr
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_60
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_23
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_2B
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_30
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_33
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_36
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_3C
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_3E
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_3F
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_40
+odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45
+odm/etc/nfc/st21nfc_fw.bin_st21h
+odm/etc/nfc/st21nfc_fw7.bin_st21h
+odm/etc/ueventd.reserve.rc
+
+## pnscr companion lib/tool for vendor.oplus.hardware.nfcExtns-service
+odm/bin/opnscr_aidl
+
+## ---------------------------------------------------------------------------
+## OPPO NFC HAL, minimal set, deliberately WITHOUT the VINTF manifest.
+##
+## The stock NFC stack is OPPO's: nfc_nci.nqx.default.hw.so is the NCI HAL that
+## actually opens /dev/nq-nci, served by vendor.oplus.hardware.nfc_aidl-service
+## (IOplusNfc). LOS ships only its own android.hardware.nfc-service.nxp /
+## nfc_nci_nxp_snxxx.so, which loads but never opens the device - NfcService then
+## reports "NFC is not initialized yet" forever and mState stays off.
+##
+## The manifest (manifest_oplus_nfc_aidl.xml) is left out on purpose: adding it
+## in the earlier batch made the device hang on the boot screen, because the
+## declared HAL instance never came up. The AIDL service registers itself with
+## servicemanager regardless.
+## ---------------------------------------------------------------------------
+
+## NXP HIDL NFC interface libs - hard deps of nfc_nci.nqx.default.hw
+
+## ---------------------------------------------------------------------------
+## The vendor NFC extension bridge.
+##
+## packages/modules/Nfc/libnfc-nci/src/nfc_vendor_extn/NfcVendorExtn.cc does
+##     mLibPathName = findLibPath();
+##     if (mLibPathName.empty()) { LOG(ERROR) << "Failed to find %s !!"; return false; }
+## and findLibPath() tries, in order:
+##     1. persist.nfc_vendor_extn.lib_file_name
+##     2. libnfc_vendor_extn-<ro.boot.product.hardware.sku>.so
+##     3. libnfc_vendor_extn.so
+## All three are absent here, so NfcExtn_LibSetup() fails, NfcVendorExtn::
+## Initialize() returns false and NfcService logs "enableInternal: Error
+## enabling NFC" - NFC never enables, mState stays off, and the HAL is never
+## asked to open /dev/nq-nci. Symptom in logcat:
+##     libnfc_nci: NfcExtn_LibSetup: Failed to find  !!
+## (note the empty name - that is mLibPathName being empty).
+##
+## The library only needs platform libs plus vendor.nxp.nxpnfc_aidl.INxpNfc,
+## which LineageOS already ships and runs, so no OPPO service or extra sepolicy
+## is required.
+## ---------------------------------------------------------------------------

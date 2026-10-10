@@ -1,0 +1,51 @@
+## All proprietary firmware images extracted from realme GT8 Pro (RMX5200_16.0.10.501(CN01)).
+##
+## These are packaged into the OTA and flashed to both slots (;AB). The set itself
+## mirrors OnePlus 15's list - same OPPO SM8850 platform - but every image is
+## sourced from the RMX5200 (realme) firmware, never from the OnePlus one.
+##
+## Deliberately absent: boot, init_boot, vendor_boot, recovery, dtbo, pvmfw and the
+## vbmeta* images. Those are built by LineageOS or intentionally left untouched.
+##
+## All 40 images were verified to exist in the RMX5200_16.0.10.501 payload.
+
+abl.img;AB
+aop.img;AB
+aop_config.img;AB
+bluetooth.img;AB
+cpucp.img;AB
+cpucp_dtb.img;AB
+devcfg.img;AB
+dsp.img;AB
+engineering_cdt.img;AB
+featenabler.img;AB
+hyp.img;AB
+hyp_ac_config.img;AB
+imagefv.img;AB
+keymaster.img;AB
+modem.img;AB
+multiimgoem.img;AB
+multiimgqti.img;AB
+oplus_sec.img;AB
+pdp.img;AB
+pdp_cdb.img;AB
+qupfw.img;AB
+secretkeeper.img;AB
+shrm.img;AB
+soccp.img;AB
+soccp_dcd.img;AB
+soccp_debug.img;AB
+splash.img;AB
+spuservice.img;AB
+tme_config.img;AB
+tme_fw.img;AB
+tme_seq_patch.img;AB
+tz.img;AB
+tz_ac_config.img;AB
+tz_qti_config.img;AB
+uefi.img;AB
+uefisecapp.img;AB
+xbl.img;AB
+xbl_ac_config.img;AB
+xbl_config.img;AB
+xbl_ramdump.img;AB

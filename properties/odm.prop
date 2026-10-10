@@ -1,0 +1,11 @@
+# Regional properties
+import /odm/etc/${ro.boot.prjname}/build.default.prop
+ro.product.property_source_order=odm,vendor,product,system_ext,system
+
+# Sensors
+# Verified on the running stock ROM (RMX5200_16.0.10.501) - identical to infiniti.
+# Hardware: icm456xx (TDK) accel/gyro, ak0991x (AKM) mag, tcs3720 (ams) prox/RGB.
+ro.vendor.oplus.sensor.brl_receive=true
+ro.vendor.oplus.sensor.high_pwm_rgb=true
+ro.vendor.oplus.sensor.lb_algo=true
+ro.vendor.oplus.sensor.use_black_mode=true

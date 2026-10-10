@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+
+     NOTE: the stock SystemUI overlay
+     (/my_product/overlay/com.android.SystemUIResOverlay.24624.apk) uses
+     differently named resources (stat_padding_start = 21dp,
+     stat_padding_end = 24dp, config_isThreeKeySystemUI = true). They are not
+     the same resources as the LineageOS ones below, so the stock numbers are
+     not copied over directly.
+-->
+<resources>
+    <!-- Padding on the start of the status bar.
+         With 0dp the clock sits at x=15, i.e. flush against the edge: the
+         rounded-corner inset the framework already applies is not enough on
+         its own. 21dp - the same number the stock ColorOS overlay uses for
+         stat_padding_start - moves the left block to x=78, which matches the
+         right-hand margin (the icons end at x=1367, so 73px). Measured on the
+         device, not copied from stock.
+         Note this is additive to the framework's rounded-corner inset, so the
+         value is not interchangeable with ColorOS's resource of similar name;
+         it just happens to land symmetric here.
+         keyguard_carrier_text_margin follows this, so the carrier text on the
+         lock screen lines up with the clock. -->
+    <dimen name="status_bar_padding_start">21dp</dimen>
+
+    <!-- Padding on the end of the status bar. -->
+    <dimen name="status_bar_padding_end">0dp</dimen>
+
+    <!-- Padding above the status bar contents.
+         The status bar window is as tall as the cutout's top safe inset, i.e.
+         the bottom edge of config_mainBuiltInDisplayCutoutRectApproximation
+         (y=144, see OPlusFrameworksResTarget), and the icon row inside it is
+         laid out centre_vertical. So with no padding the icons end up at
+         y = 144 / 2 = 72, while the punch hole - path centre (39, 92), radius
+         39, i.e. screen y 53..131 - has its centre at y = 92. The icons
+         therefore read as sitting too high.
+
+         The row's centre is (barHeight + paddingTop) / 2, so 40 px = 13.33 dp
+         moves it from 72 to (144 + 40) / 2 = 92, level with the hole.
+
+         Recompute if the cutout rect changes:
+             paddingTop = 2 * targetCentreY - barHeight
+         e.g. bar clamped to 131 (hugging the hole) would need 53 px = 17.67 dp
+         for the same y = 92.
+
+         Applies to status_bar.xml and keyguard_status_bar.xml alike, so the
+         lock screen and the shade stay consistent. -->
+    <dimen name="status_bar_padding_top">13.33dp</dimen>
+
+    <!-- Height of the status bar row inside the quick settings header - the
+         clock/date line you see once the shade is pulled down.
+
+         The row is a MotionLayout (combined_qs_header.xml, id
+         split_shade_status_bar) whose scene puts the clock at
+             layout_height                 = @dimen/large_screen_shade_header_min_height
+             constraintBottom_toBottomOf   = @id/qqs_header_bottom_guideline
+         and that guideline's layout_constraintGuide_begin is the same dimen.
+         So the clock always spans y 0..L and its centre is fixed at L / 2,
+         regardless of how tall the container ends up.
+
+         It defaults to @dimen/status_bar_height (40dp = 120px), centre 60,
+         while the status bar outside the shade is 144px tall (the cutout
+         inset) with 40px of status_bar_padding_top on top, centre 92. Hence
+         the row visibly jumps up when the shade is pulled down. 61.33dp =
+         184px puts the centre back at 92, matching the collapsed bar.
+
+         Measured with `uiautomator dump` (clock bounds):
+             before: [48,0][206,120]   centre 60
+             after:  [48,0][225,184]   centre 92
+
+         Two accepted side effects, both confirmed on the device:
+           - @id/date no longer renders next to the clock. In qqs_header.xml it
+             is baseline-aligned to the clock, which is now 64px taller.
+           - split_shade_status_bar grows with it (319 -> 447px), so the QS
+             tiles sit about 128px lower when the shade is expanded.
+         Recompute the target the same way as status_bar_padding_top:
+             large_screen_shade_header_min_height = 2 * targetCentreY
+    -->
+    <dimen name="large_screen_shade_header_min_height">61.33dp</dimen>
+
+    <!-- Margin on the left side of the carrier text on Keyguard.
+         Deliberately NOT an alias of status_bar_padding_start any more. The
+         collapsed status bar gets the display's rounded-corner inset on top of
+         its padding, so 21dp there already lands the clock on x=78; the
+         keyguard carrier text has no such inset and sat at x=3, flush against
+         the edge. 25dp = 75px puts it on x=78 as well, so the two match.
+
+         Applied by KeyguardStatusBarView.updateCarrierLabelMargin() as
+         calculateMargin(keyguard_carrier_text_margin, mPadding.left), i.e. a
+         margin on mCarrierLabel - not the layout_marginStart in
+         keyguard_status_bar.xml, which is overwritten at runtime.
+
+         Measured (`uiautomator`/screencap, leftmost lit pixel of the row):
+             alias of status_bar_padding_start (21dp)  x=3
+             40dp                                      x=123
+             25dp                                      x=78   <- same as home
+         Note the alias did not resolve under a preview RRO even though it
+         should have; an explicit value sidesteps that question entirely. -->
+    <dimen name="keyguard_carrier_text_margin">25dp</dimen>
+
+    <!-- Microns (1000 um = 1 mm) per pixel.
+         Derived from the measured panel density of 515.1549 dpi:
+         25.4 mm / 515.1549 px = 0.049306 mm = 49.31 um. -->
+    <item name="pixel_pitch" format="float" type="dimen">49.31</item>
+
+    <!-- TODO(phase6): physical_power_button_center_screen_location_y is not set,
+         so the power menu will centre itself. Needs a measurement on lafa
+         (screen is 1440x3136). -->
+
+    <!-- TODO(phase6): the rounded_corner_top / rounded_corner_bottom drawables
+         are not provided. The stock equivalents live in
+         /my_product/overlay/oplus_framework_res_overlay.display.product.24624.apk
+         as oplus_rc_{top_left,top_right,bottom_left,bottom_right,cutout}.png;
+         LineageOS' SystemUI expects the two-name scheme, so they have to be
+         regenerated for a 176px radius rather than copied. -->
+</resources>

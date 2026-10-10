@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+
+     Measured values from the stock ROM (RMX5200_16.0.10.501).
+     Framework overlay source: /my_product/overlay/android_framework_res_overlay.display.product.24624.apk
+     Brightness ladder source:  /product/overlay/FrameworksResCommon_Sys.apk
+     Display scalars cross-checked against `dumpsys display` DisplayInfo.
+-->
+<resources>
+    <!-- Flag indicating whether we should enable the automatic brightness. -->
+    <bool name="config_automatic_brightness_available">true</bool>
+
+    <!-- Available ColorDisplayManager.COLOR_MODE_xxx.
+         These must hold the DTM's own 0-3 values, NOT OPPO's QDCM render
+         intents. Selecting 301/303/307 (as the stock overlay advertises) does
+         reach SurfaceFlinger - renderIntent changes 0x12d/0x12f/0x133 - but the
+         gamut never moves: SF resolves color modes against the *content*
+         dataspace, UI content is always BT709, so every vendor intent maps to
+         ColorMode::SRGB. All three looked identical, i.e. switching did nothing.
+
+         The 0-3 values instead drive DisplayTransformManager's saturation /
+         displayColor branches, which do change the picture. Order here is the
+         order shown in Settings (ColorModePreferenceFragment enumerates this
+         array), and it must stay in sync with OPlusSettingsResTarget's
+         config_color_mode_options_values:
+             1 -> COLOR_MODE_BOOSTED    saturation 1.1, gamut managed   = Natural
+             0 -> COLOR_MODE_NATURAL    saturation 1.0, gamut managed   = Standard
+             2 -> COLOR_MODE_SATURATED  gamut UNMANAGED (panel native)  = Vivid
+         Any value absent from this array is rejected by
+         ColorDisplayService.isColorModeAvailable(), and getColorModeInternal()
+         then falls back to element [0] - which is why setting 0-3 through
+         `settings put` silently did nothing before this change. -->
+    <integer-array name="config_availableColorModes">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </integer-array>
+
+    <!-- Stock sets config_defaultRefreshRate = 0, i.e. no cap.
+         Do NOT introduce a non-zero value here: this resource votes on the
+         global refresh rate and a wrong value silently caps the panel. -->
+    <integer name="config_defaultRefreshRate">0</integer>
+
+    <!-- DisplayInfo from the stock ROM: brightnessMinimum 0.016, maximum 1.0, dim 0.05. -->
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.016</item>
+    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
+    <item type="dimen" name="config_screenBrightnessDozeFloat">0.05</item>
+    <integer name="config_screenBrightnessDim">16</integer>
+
+    <!-- Auto-brightness ladder, transcribed verbatim from the stock
+         /product/overlay/FrameworksResCommon_Sys.apk (android.overlay.common).
+         This is the legacy lux -> backlight path.
+
+         TODO(phase6): the stock ladder stops at 255 lux, which is the same
+         "lux ladder truncated at 255 lux" limitation that has bitten these
+         devices before. LineageOS' nits-based path
+         (config_autoBrightnessDisplayValuesNits + config_screenBrightnessNits)
+         avoids it. lafa's backlight -> nits map is available from
+         vendor/etc/displayconfig/display_id_*.xml (52 points, 0.2289 nits at
+         backlight 0 up to 782.4 nits at backlight 1.0), so building a proper
+         curve is possible once there is a device to tune against. -->
+    <integer-array name="config_autoBrightnessLevels">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>100</item>
+        <item>150</item>
+        <item>210</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>70</item>
+        <item>110</item>
+        <item>160</item>
+        <item>200</item>
+        <item>255</item>
+    </integer-array>
+
+    <!-- Auto-brightness light sensor.
+         Nothing else in the tree sets this, so it used framework-res' default
+         "android.sensor.light" - which on lafa resolves to "Oplus FusionLight
+         Sensor" and does NOT track a torch: lux stayed pinned at 8.7625 through
+         20 seconds of light aimed at both the front and rear apertures.
+
+         Use the rear ambient-light sensor instead. Measured on this panel
+         (Flyme side, 2026-09-28): qti.sensor.light_rear tracks light in both
+         directions, while qti.sensor.high_pwm_rgb freezes and qti.sensor.lux_aod
+         is a constant 1.0. The string must be exact - a typo makes
+         SensorUtils.findSensor return null, and the framework then subscribes to
+         nothing WITHOUT logging anything, which looks exactly like a dead
+         sensor. -->
+    <string name="config_displayLightSensorType" translatable="false">qti.sensor.light_rear</string>
+
+    <!-- Front camera punch hole.
+         Coordinates are relative to the top centre of the display: the origin
+         (0,0) is the middle of the top edge, +x to the right, +y down, in
+         physical pixels. The hole is NOT centred in that space - it sits 39 px
+         right of, and 53 px below, the panel's top centre -
+         so a centred rectangle like the stock "M -44,0 L -44,137 L 44,137 L
+         44,0 Z" lands off the actual aperture.
+         Path: circle of radius 39 centred at (39, 53).
+         Rect: 78 x 124 keep-out, top edge at y=20, hugging the same x range.
+         Both values were confirmed on the device (see the Flyme port's
+         fabricate-verified cutout notes; the geometry is panel-bound, not
+         ROM-bound). -->
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M0,53a39,39 0,1 1,0 78a39,39 0,1 1,0 -78</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">M 0.0,20.0 h 78 v 124 h -78 Z</string>
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+
+    <!-- Native panel resolution (2K), from StableDeviceValues. -->
+    <integer name="config_stableDeviceDisplayWidth">1440</integer>
+    <integer name="config_stableDeviceDisplayHeight">3136</integer>
+
+    <!-- Light sensor configuration from the stock display overlay. -->
+    <bool name="config_dualLightSensorSupport">true</bool>
+    <dimen name="config_auxLightSensorLuxLimit">8500</dimen>
+    <string translatable="false" name="config_mainDisplayLightSensorType">android.sensor.light</string>
+    <string translatable="false" name="config_auxDisplayLightSensorType">qti.sensor.light_rear</string>
+</resources>
