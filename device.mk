@@ -166,7 +166,7 @@ PRODUCT_COPY_FILES += \
 #    HAL, and its stem already installs as /system/lib64/libnfc_vendor_extn.so -
 #    the only path NfcVendorExtn::findLibPath() searches.
 PRODUCT_PACKAGES += \
-    libnfc_vendor_extn_sys
+#    libnfc_vendor_extn_sys
 
 # 2. /vendor/etc/libnfc-nxp.conf.
 #    That path is hardcoded in the HAL as default_nxp_config_path
