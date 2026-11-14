@@ -1524,6 +1524,10 @@ odm/etc/nfc/libnfc-mtp-SN220.conf_24776:odm/etc/libnfc-mtp-SN220.conf_24776
 odm/etc/nfc/libnfc-mtp-SN220.conf_24863:odm/etc/libnfc-mtp-SN220.conf_24863
 odm/etc/nfc/libnfc-nci.conf_24624:vendor/etc/libnfc-nci.conf
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
+# Sensors config
+my_product/etc/fusionlight_profile/fusionlight_Main_1_3.json:odm/etc/fusionlight_profile/fusionlight_Main_1_3.json
+my_product/etc/fusionlight_profile/fusionlight_Main_2_3.json:odm/etc/fusionlight_profile/fusionlight_Main_2_3.json
+
 odm/etc/sensor/config/json_list
 odm/etc/sensor/config/kaanapali_mtp_ak09919.json
 odm/etc/sensor/config/kaanapali_mtp_alsps.json
