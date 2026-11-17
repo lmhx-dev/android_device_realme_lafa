@@ -21,7 +21,7 @@ TARGET_OTA_ASSERT_DEVICE := RMX5200,RE6030L1,lafa
 # Display
 # Panel AE084 P 3 A0033 (BOE) is natively 1440x3136 (2K); stock runs the 1080x2352
 # (1.5K) mode by default. Density matches what stock ships as the override.
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 530
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
